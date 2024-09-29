@@ -14,19 +14,21 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import groovy.console.ui.SystemOutputInterceptor as SystemOutputInterceptor
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 WebUI.openBrowser('')
+
 def expText
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+
+WebUI.navigateToUrl(url)
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'))
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
+WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), password)
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
 
@@ -40,20 +42,15 @@ WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/tex
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Book Appointment'))
 
-String verifyTextMakeApp=WebUI.getText(findTestObject('Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation'))
-	
-	if(verifyTextMakeApp=="Appointment Confirmation")
-	{
-		System.out.println("++++++++ 1st variable test"+verifyTextMakeApp)
-	}
- expText="Appointment Confirmation"
-	WebUI.verifyEqual(expText,verifyTextMakeApp)
-	
-		
-	
-	
-	
-	
-	 
-   
+String verifyTextMakeApp = WebUI.getText(findTestObject('Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation'))
+
+if (verifyTextMakeApp == 'Appointment Confirmation') {
+    System.out.println('++++++++ 1st variable test' + verifyTextMakeApp)
+
+    System.out.println('https://academy.katalon.com/courses/using-variables-in-katalon/lesson/using-variables-to-parameterize-hard-coded-values-in-a-test-case/')
+}
+
+expText = 'Appointment Confirmation'
+
+WebUI.verifyEqual(expText, verifyTextMakeApp)
 
