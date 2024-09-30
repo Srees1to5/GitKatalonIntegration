@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>DataDriven</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>1</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>5abc91c5-6500-4ee8-b1b4-3dbedd7fc4b6</testSuiteGuid>
+   <testCaseLink>
+      <guid>c3b111b0-87dc-4d24-8e38-430a57c8645b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <iterationNameVariable>
+         <defaultValue>'John Doe'</defaultValue>
+         <description></description>
+         <id>4e2494ec-c2bd-49b0-afc1-8f7c00a3c305</id>
+         <masked>false</masked>
+         <name>username</name>
+      </iterationNameVariable>
+      <testCaseId>Test Cases/DataDrivenExcel</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6bf986eb-af9e-4162-a058-6298f5adef9c</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/LoginCred</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>999f7b4e-8443-4521-9fc9-6dc7b7e28ed8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6bf986eb-af9e-4162-a058-6298f5adef9c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>4e2494ec-c2bd-49b0-afc1-8f7c00a3c305</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6bf986eb-af9e-4162-a058-6298f5adef9c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>686623bb-c1f4-4d47-a5e5-c03f4bcded00</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
