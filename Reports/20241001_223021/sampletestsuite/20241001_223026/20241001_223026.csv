@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+sampletestsuite,Chrome 129.0.0.0,,,01-10-2024 22:30:55,01-10-2024 22:32:11,1m - 16.049s,PASSED
+,,,,,,,
+Test Cases/TCSample,Chrome 129.0.0.0,,,01-10-2024 22:30:58,01-10-2024 22:31:45,46.553s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,01-10-2024 22:31:02,01-10-2024 22:31:20,17.822s,PASSED
+"navigateToUrl(""https://stps.ecoleaide.com/home.htm"")",Chrome 129.0.0.0,,,01-10-2024 22:31:20,01-10-2024 22:31:22,2.048s,PASSED
+"click(findTestObject(""Object Repository/Page_St. Thomas Public School - StudentPare_015377/a_Forgot Password""))",Chrome 129.0.0.0,,,01-10-2024 22:31:22,01-10-2024 22:31:25,3.155s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_St. Thomas Public School - StudentPare_015377/select_--Select Problem--I forgot my password""), ""1"", true)",Chrome 129.0.0.0,,,01-10-2024 22:31:25,01-10-2024 22:31:34,8.954s,PASSED
+"click(findTestObject(""Object Repository/Page_St. Thomas Public School - StudentPare_015377/input_What problem are you having with your_1922ff""))",Chrome 129.0.0.0,,,01-10-2024 22:31:34,01-10-2024 22:31:40,5.677s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_St. Thomas Public School - StudentPare_015377/select_--Select reset method--Send reset me_765839""), ""2"", true)",Chrome 129.0.0.0,,,01-10-2024 22:31:40,01-10-2024 22:31:42,2.489s,PASSED
+"setText(findTestObject(""Object Repository/Page_St. Thomas Public School - StudentPare_015377/input_Enter your username_email""), ""test"")",Chrome 129.0.0.0,,,01-10-2024 22:31:42,01-10-2024 22:31:44,1.909s,PASSED
+"click(findTestObject(""Object Repository/Page_St. Thomas Public School - StudentPare_015377/input_Enter your username_back""))",Chrome 129.0.0.0,,,01-10-2024 22:31:44,01-10-2024 22:31:45,0.503s,PASSED
+,,,,,,,
+Test Cases/TCSample,Chrome 129.0.0.0,,,01-10-2024 22:31:45,01-10-2024 22:32:11,26.292s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,01-10-2024 22:31:45,01-10-2024 22:32:02,17.301s,PASSED
+"navigateToUrl(""https://stps.ecoleaide.com/home.htm"")",Chrome 129.0.0.0,,,01-10-2024 22:32:02,01-10-2024 22:32:04,2.047s,PASSED
+"click(findTestObject(""Object Repository/Page_St. Thomas Public School - StudentPare_015377/a_Forgot Password""))",Chrome 129.0.0.0,,,01-10-2024 22:32:04,01-10-2024 22:32:07,2.692s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_St. Thomas Public School - StudentPare_015377/select_--Select Problem--I forgot my password""), ""1"", true)",Chrome 129.0.0.0,,,01-10-2024 22:32:07,01-10-2024 22:32:08,1.213s,PASSED
+"click(findTestObject(""Object Repository/Page_St. Thomas Public School - StudentPare_015377/input_What problem are you having with your_1922ff""))",Chrome 129.0.0.0,,,01-10-2024 22:32:08,01-10-2024 22:32:09,0.528s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_St. Thomas Public School - StudentPare_015377/select_--Select reset method--Send reset me_765839""), ""2"", true)",Chrome 129.0.0.0,,,01-10-2024 22:32:09,01-10-2024 22:32:10,1.095s,PASSED
+"setText(findTestObject(""Object Repository/Page_St. Thomas Public School - StudentPare_015377/input_Enter your username_email""), ""test"")",Chrome 129.0.0.0,,,01-10-2024 22:32:10,01-10-2024 22:32:11,0.875s,PASSED
+"click(findTestObject(""Object Repository/Page_St. Thomas Public School - StudentPare_015377/input_Enter your username_back""))",Chrome 129.0.0.0,,,01-10-2024 22:32:11,01-10-2024 22:32:11,0.484s,PASSED

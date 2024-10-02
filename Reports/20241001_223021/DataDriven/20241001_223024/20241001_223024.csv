@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DataDriven,Edge Chromium 129,,,01-10-2024 22:30:55,01-10-2024 22:35:38,4m - 43.582s,FAILED
+,,,,,,,
+Test Cases/DataDrivenExcel,Edge Chromium 129,,,01-10-2024 22:30:58,01-10-2024 22:32:22,1m - 23.681s,PASSED
+"openBrowser("""")",Edge Chromium 129,,,01-10-2024 22:31:04,01-10-2024 22:31:29,25.519s,PASSED
+expText = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 129,,,01-10-2024 22:31:29,01-10-2024 22:31:29,0.008s,PASSED
+navigateToUrl(url),Edge Chromium 129,,,01-10-2024 22:31:29,01-10-2024 22:31:33,3.693s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Edge Chromium 129,,,01-10-2024 22:31:33,01-10-2024 22:31:35,2.605s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), username)",Edge Chromium 129,,,01-10-2024 22:31:35,01-10-2024 22:31:37,1.685s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), password)",Edge Chromium 129,,,01-10-2024 22:31:37,01-10-2024 22:31:39,1.772s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Edge Chromium 129,,,01-10-2024 22:31:39,01-10-2024 22:31:42,3.064s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34""))",Edge Chromium 129,,,01-10-2024 22:31:42,01-10-2024 22:31:43,0.675s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/th_""))",Edge Chromium 129,,,01-10-2024 22:31:43,01-10-2024 22:32:17,34.639s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/td_9""))",Edge Chromium 129,,,01-10-2024 22:32:17,01-10-2024 22:32:18,0.532s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""), ""test"")",Edge Chromium 129,,,01-10-2024 22:32:18,01-10-2024 22:32:19,1.021s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""))",Edge Chromium 129,,,01-10-2024 22:32:19,01-10-2024 22:32:21,2.570s,PASSED
+"verifyTextMakeApp = getText(findTestObject(""Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation""))",Edge Chromium 129,,,01-10-2024 22:32:21,01-10-2024 22:32:22,0.503s,PASSED
+"if (verifyTextMakeApp == ""Appointment Confirmation"")",Edge Chromium 129,,,01-10-2024 22:32:22,01-10-2024 22:32:22,0.186s,PASSED
+"expText = ""Appointment Confirmation""",Edge Chromium 129,,,01-10-2024 22:32:22,01-10-2024 22:32:22,0.003s,PASSED
+"verifyEqual(expText, verifyTextMakeApp)",Edge Chromium 129,,,01-10-2024 22:32:22,01-10-2024 22:32:22,0.116s,PASSED
+,,,,,,,
+Test Cases/DataDrivenExcel,Edge Chromium 129,,,01-10-2024 22:33:52,01-10-2024 22:35:38,1m - 46.321s,FAILED
+"openBrowser("""")",Edge Chromium 129,,,01-10-2024 22:33:52,01-10-2024 22:34:00,8.279s,PASSED
+expText = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 129,,,01-10-2024 22:34:00,01-10-2024 22:34:00,0.000s,PASSED
+navigateToUrl(url),Edge Chromium 129,,,01-10-2024 22:34:00,01-10-2024 22:34:08,8.004s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Edge Chromium 129,,,01-10-2024 22:34:08,01-10-2024 22:34:10,1.386s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), username)",Edge Chromium 129,,,01-10-2024 22:34:10,01-10-2024 22:34:11,1.650s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), password)",Edge Chromium 129,,,01-10-2024 22:34:11,01-10-2024 22:34:13,1.652s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Edge Chromium 129,,,01-10-2024 22:34:13,01-10-2024 22:34:14,1.361s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34""))",Edge Chromium 129,,,01-10-2024 22:34:14,01-10-2024 22:34:46,31.592s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/th_""))",Edge Chromium 129,,,01-10-2024 22:34:46,01-10-2024 22:35:38,52.191s,FAILED
