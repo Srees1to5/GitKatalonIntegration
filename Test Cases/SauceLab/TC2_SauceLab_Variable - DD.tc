@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC2_SauceLab_Variable - DD</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b0e4a50c-9d52-480b-a31e-888573b486d8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9bc4c408-7ee6-489d-a6e0-bdf7639fec4d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bd5372c3-95ab-436d-9908-ea67a574b0f9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5d296f6b-ec0f-4e6e-ba3f-db4309af22fe</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://www.saucedemo.com/'</defaultValue>
+      <description></description>
+      <id>9bc4c408-7ee6-489d-a6e0-bdf7639fec4d</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>'standard_user'</defaultValue>
+      <description></description>
+      <id>bd5372c3-95ab-436d-9908-ea67a574b0f9</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'secret_sauce'</defaultValue>
+      <description></description>
+      <id>5d296f6b-ec0f-4e6e-ba3f-db4309af22fe</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

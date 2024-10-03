@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>SauceTestSuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>2</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>c0e39034-72f5-4370-8a14-b9de9acd7113</testSuiteGuid>
+   <testCaseLink>
+      <guid>2013efed-4ef8-498c-aff3-0b845957e48c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SauceLab/TC2_SauceLab_Variable - DD</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>8694c9ff-958c-4bdc-a7eb-efa5d14eeac4</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/SauceLabCred</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9bc4c408-7ee6-489d-a6e0-bdf7639fec4d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8694c9ff-958c-4bdc-a7eb-efa5d14eeac4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>bd5372c3-95ab-436d-9908-ea67a574b0f9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8694c9ff-958c-4bdc-a7eb-efa5d14eeac4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>5d296f6b-ec0f-4e6e-ba3f-db4309af22fe</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
