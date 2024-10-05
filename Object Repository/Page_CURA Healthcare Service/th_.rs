@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='September 2024'])[1]/following::th[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='«'])[1]/following::th[2]</value>
       </entry>
       <entry>
          <key>CSS</key>

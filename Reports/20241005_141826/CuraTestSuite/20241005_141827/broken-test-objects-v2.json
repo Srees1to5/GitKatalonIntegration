@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_CURA Healthcare Service/input_Username_username",
+      "brokenLocator": "//input[@id\u003d\u0027txt-username\u0027][0]\t\t\t\t\t\t",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@id\u003d\u0027txt-username\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241005_141826/CuraTestSuite/20241005_141827/Object Repository/Page_CURA Healthcare Service/input_Username_username_attributes.png"
+    }
+  ]
+}
