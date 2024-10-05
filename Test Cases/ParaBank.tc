@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ParaBank</name>
+   <tag>parabanktag</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6d5583af-6d31-4493-844c-18ec08d2d84d</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>e8aa7063-5b34-479d-a40a-69f7022f997b</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/parabankcred</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>e8aa7063-5b34-479d-a40a-69f7022f997b</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>fname</value>
+      <variableId>8b9dbe66-b288-4e5e-a4fb-482f99833cc7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>e8aa7063-5b34-479d-a40a-69f7022f997b</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>lname</value>
+      <variableId>c107c161-d090-4ec2-8be6-f3fd3bb7188d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'test'</defaultValue>
+      <description></description>
+      <id>8b9dbe66-b288-4e5e-a4fb-482f99833cc7</id>
+      <masked>false</masked>
+      <name>fname</name>
+   </variable>
+   <variable>
+      <defaultValue>'last'</defaultValue>
+      <description></description>
+      <id>c107c161-d090-4ec2-8be6-f3fd3bb7188d</id>
+      <masked>false</masked>
+      <name>lname</name>
+   </variable>
+</TestCaseEntity>
