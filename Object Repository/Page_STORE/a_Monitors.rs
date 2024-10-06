@@ -7,7 +7,6 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>1258c594-b6f1-4f01-a510-067f1b81301d</webElementGuid>
+      <webElementGuid>f8a1cef1-8911-41eb-9411-3dc2e12f2684</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +36,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>40b243a1-2b2c-4c8c-a29b-b5e67603d31d</webElementGuid>
+      <webElementGuid>32965b55-cd6d-404e-87ec-ec31c4ff02db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +44,7 @@
       <name>id</name>
       <type>Main</type>
       <value>itemc</value>
-      <webElementGuid>06d253b8-57dc-475d-b139-6d4ca32878d1</webElementGuid>
+      <webElementGuid>3d75a7e0-1970-438e-97ac-13fed4cf34a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +52,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>byCat('monitor')</value>
-      <webElementGuid>9009ed10-75ca-4e2b-989a-bb29a02903ae</webElementGuid>
+      <webElementGuid>441fa989-2512-4448-8c61-ef0d24eefffe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +60,7 @@
       <name>class</name>
       <type>Main</type>
       <value>list-group-item</value>
-      <webElementGuid>df484653-ad3f-4f4e-9667-e50191ef119f</webElementGuid>
+      <webElementGuid>f1cfabb0-3c02-436e-a2c9-2cd22748e5a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +68,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Monitors</value>
-      <webElementGuid>dd4722f8-0f74-4620-a9f3-483619fa6039</webElementGuid>
+      <webElementGuid>66256418-cb29-4832-9d44-7897b5486467</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +76,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;contcont&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-3&quot;]/div[@class=&quot;list-group&quot;]/a[@id=&quot;itemc&quot;]</value>
-      <webElementGuid>fef00e32-e417-40c2-986e-54f9a316adc1</webElementGuid>
+      <webElementGuid>50e512ab-294b-4b86-a591-59ca8358bcb8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +84,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//a[@id='itemc'])[3]</value>
-      <webElementGuid>3c3882ba-6043-45e0-95bf-2f279664b7d6</webElementGuid>
+      <webElementGuid>0e668218-b072-41e8-90b4-9366352998cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +92,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='contcont']/div/div/div/a[4]</value>
-      <webElementGuid>913f7a81-2c8e-42a8-96e2-d46f1591610d</webElementGuid>
+      <webElementGuid>69dc6467-b790-42ee-a899-54b7ce9a62ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +100,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Monitors')]</value>
-      <webElementGuid>efea5b51-5679-4585-91cd-4662e6129a7b</webElementGuid>
+      <webElementGuid>304bbe9c-93b2-4fe1-a410-5877b575e04d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +108,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CATEGORIES'])[1]/following::a[3]</value>
-      <webElementGuid>274213d1-40b3-4a92-8aab-33f35217a982</webElementGuid>
+      <webElementGuid>01bf9d76-29e6-4a52-a35b-5badf56d5310</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +116,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/following::a[4]</value>
-      <webElementGuid>79814f7c-eb01-4056-94e8-47500e9bca88</webElementGuid>
+      <webElementGuid>792a44f9-c2ce-4cd6-a4c8-b8a47373dd31</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +124,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Samsung galaxy s6'])[1]/preceding::a[2]</value>
-      <webElementGuid>4eb43a9c-9d2e-4adf-b6a4-29ca4be38ef8</webElementGuid>
+      <webElementGuid>7aa8efdc-cc7d-4c7b-899d-e9c76514d786</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +132,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$360'])[1]/preceding::a[3]</value>
-      <webElementGuid>3e552c99-6f4b-4b34-85a2-50e9a36076e6</webElementGuid>
+      <webElementGuid>6a22b65e-bcb5-44f6-86a2-70d711ed5877</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +140,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Monitors']/parent::*</value>
-      <webElementGuid>3e6b9c7f-0355-4024-92a8-f374a9244ce1</webElementGuid>
+      <webElementGuid>25b0a97f-995a-4ad4-bc0f-dfe34ba97891</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +148,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[11]</value>
-      <webElementGuid>efa5a7ad-863f-4c89-8c77-34b870d746ab</webElementGuid>
+      <webElementGuid>518aa08f-22dd-4025-8b37-00d74cbfb8e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,7 +156,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[4]</value>
-      <webElementGuid>4bf9cc5b-f277-42be-abc0-e38d500272c3</webElementGuid>
+      <webElementGuid>ed6c9792-359a-40bb-b492-39b322200f56</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -165,6 +164,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and @id = 'itemc' and (text() = 'Monitors' or . = 'Monitors')]</value>
-      <webElementGuid>dcd755ed-4fe0-4c34-a25b-cfcb5baa0eba</webElementGuid>
+      <webElementGuid>994bca89-bc11-4866-970f-4077665bcd8b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

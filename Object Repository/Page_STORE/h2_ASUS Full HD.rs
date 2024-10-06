@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h2</value>
-      <webElementGuid>4e0fc04a-1172-4e8b-a67b-5a5d27bfa26c</webElementGuid>
+      <webElementGuid>8016d111-5933-40af-9a50-04c9f3559d42</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>name</value>
-      <webElementGuid>a43579a5-26a5-4bf5-b2ed-c587b7795735</webElementGuid>
+      <webElementGuid>326edae3-0b44-48d0-a54f-861fc96f838c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>ASUS Full HD</value>
-      <webElementGuid>9a8982a3-edef-4c4e-bc2b-0876b506fe52</webElementGuid>
+      <webElementGuid>c48ccc44-4c76-4f8d-bdf9-34c3064e23d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;tbodyid&quot;)/h2[@class=&quot;name&quot;]</value>
-      <webElementGuid>f94bd96f-4933-4308-8a78-3920d29d4f3e</webElementGuid>
+      <webElementGuid>c58e3da7-02d4-4bde-bc67-ea51fbd21e5f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='tbodyid']/h2</value>
-      <webElementGuid>06807efb-f598-43ad-b649-11f71279556c</webElementGuid>
+      <webElementGuid>5d55406d-e1bf-4e16-b0a3-b98ae54cd545</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cart'])[1]/following::h2[1]</value>
-      <webElementGuid>e1594729-42ac-489d-ba95-82f6a1392716</webElementGuid>
+      <webElementGuid>ef87df68-fb82-457f-9350-da2383bca23b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='(current)'])[1]/following::h2[1]</value>
-      <webElementGuid>100306b9-8a86-4487-aa46-3f2633501120</webElementGuid>
+      <webElementGuid>ace6ee22-7ed3-4a15-8cbc-4c84e14bcf7e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*includes tax'])[1]/preceding::h2[1]</value>
-      <webElementGuid>39406c35-7228-4f74-8004-6e0d3dd9f3ec</webElementGuid>
+      <webElementGuid>dfaa2ad1-704c-4a80-8295-822f7c51f5e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='ASUS Full HD']/parent::*</value>
-      <webElementGuid>930c486d-d554-493a-84ad-fca8c4d1b761</webElementGuid>
+      <webElementGuid>0a7fb299-52da-4a1a-ae99-002c51f584a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h2</value>
-      <webElementGuid>a97f2f11-e714-4b5f-8b37-3ad0d4055d23</webElementGuid>
+      <webElementGuid>52c67e06-2c7b-406e-899f-8350fc1fcc37</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h2[(text() = 'ASUS Full HD' or . = 'ASUS Full HD')]</value>
-      <webElementGuid>c5536434-fdab-46ab-809d-5d158217195b</webElementGuid>
+      <webElementGuid>06595bc8-8289-48ba-8a17-0d53705e292f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

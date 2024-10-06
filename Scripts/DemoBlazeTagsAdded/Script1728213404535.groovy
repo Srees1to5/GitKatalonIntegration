@@ -28,6 +28,8 @@ WebUI.click(findTestObject('Object Repository/Page_STORE/a_ASUS Full HD'))
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_STORE/h2_ASUS Full HD'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_STORE/a_Add to cart'))
+def cart=findTestObject('Object Repository/Page_STORE/a_Add to cart')
+WebUI.verifyElementPresent(cart, 3)
 
 WebUI.closeBrowser()
 
