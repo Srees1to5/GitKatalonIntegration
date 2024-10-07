@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Track Tasks on MobileLaptop</name>
+   <tag></tag>
+   <elementGuidId>ec3b02a1-bf1d-40f6-a511-226561d63a7c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='e1']/div/div/div[3]/a/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.p_.title.a > span.span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Track Tasks on Mobile+Laptop&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e2547e74-b47f-4956-9028-365af380af3d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-lines</name>
+      <type>Main</type>
+      <value>2</value>
+      <webElementGuid>656fc6cc-8d72-4480-94a3-10c11537853e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-truncate</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>b39add04-79ee-4214-9857-76b205350349</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>bc7646d0-9869-4cec-a00f-574e377f6c91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Track Tasks on Mobile+Laptop</value>
+      <webElementGuid>a89ab653-6da0-498b-a5e2-f9f36abc1bb7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;e1&quot;)/div[@class=&quot;i_ div custom_node_1&quot;]/div[@class=&quot;i_ div custom_node_2&quot;]/div[@class=&quot;i_ div custom_node_18&quot;]/a[@class=&quot;p_ title a&quot;]/span[@class=&quot;span&quot;]</value>
+      <webElementGuid>e7fe7781-3c72-47ea-b693-92bd5652f5bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_demoaut.com-Demo Software Resources an_e500e6/iframe_demoaut.com_namemaster-1,master-a-1c_9b997d</value>
+      <webElementGuid>8d2a84bc-e795-4402-ae87-199610e6c395</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='e1']/div/div/div[3]/a/span</value>
+      <webElementGuid>ef25d751-7583-49a2-ba8a-0b276aae5f88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='यह विज्ञापन क्यों दिख रहा है?'])[1]/following::span[1]</value>
+      <webElementGuid>9a4ff59a-3d45-475d-857c-46799898783e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='https://www.simpleworkflow.in/'])[1]/following::span[1]</value>
+      <webElementGuid>4b79724b-92af-422c-961e-7bb38f4b5e4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='software'])[1]/preceding::span[1]</value>
+      <webElementGuid>65d4317d-6080-457b-929d-a06be789e0d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='प्रायोजित'])[2]/preceding::span[4]</value>
+      <webElementGuid>66ae9e4b-dfb8-486e-b0af-a5a85c4f2573</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Track Tasks on Mobile+Laptop']/parent::*</value>
+      <webElementGuid>ffbcbbde-8051-4936-b317-f5fbd11bd6dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/span</value>
+      <webElementGuid>2d55fa6b-361f-4500-ac3e-7fd7fbb7b50b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Track Tasks on Mobile+Laptop' or . = 'Track Tasks on Mobile+Laptop')]</value>
+      <webElementGuid>b6b0dcc5-5513-4c67-9ff8-46eee622f332</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
