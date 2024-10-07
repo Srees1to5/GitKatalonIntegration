@@ -6,12 +6,11 @@
    <elementGuidId>8936182f-f1e2-49e2-990b-f97701f010b3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='customer.address.street']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//input[@id='customer.address.street']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>368713b9-0cb6-47e1-949f-32cec35cd673</webElementGuid>
+      <webElementGuid>6b60944f-28bc-49a0-ae59-da129ff5a633</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +36,7 @@
       <name>id</name>
       <type>Main</type>
       <value>customer.address.street</value>
-      <webElementGuid>fb7f896b-daf4-4b65-a905-fd022acc6f87</webElementGuid>
+      <webElementGuid>751868cc-1126-412f-9ffd-3b0f5be09876</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +44,7 @@
       <name>name</name>
       <type>Main</type>
       <value>customer.address.street</value>
-      <webElementGuid>16bde277-41b9-41aa-9359-4795c5553302</webElementGuid>
+      <webElementGuid>23a345cc-1463-4766-9006-735f6524a430</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +52,7 @@
       <name>class</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>18fcbcfe-9e72-44a0-bbe6-5fa8a50ed5f7</webElementGuid>
+      <webElementGuid>c821a34a-f1c2-4f4b-95b5-f5f982876067</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +60,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>96573e79-cd0b-4760-a28b-0eb323d8b9e3</webElementGuid>
+      <webElementGuid>8e122f6b-05b5-4037-b472-88e35685bd83</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +68,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;customer.address.street&quot;)</value>
-      <webElementGuid>186a0a28-6034-415d-b52c-8606865108cc</webElementGuid>
+      <webElementGuid>a8ca1930-12fa-4e52-9bf4-9e23a0576d06</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +76,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='customer.address.street']</value>
-      <webElementGuid>fe30fba1-3c49-4e8b-9891-0ec7160bae36</webElementGuid>
+      <webElementGuid>4ff9aa17-4c83-45e1-94d5-1aab9d08cb1d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +84,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='customerForm']/table/tbody/tr[3]/td[2]/input</value>
-      <webElementGuid>2433e31e-0984-4256-8199-00963c494e80</webElementGuid>
+      <webElementGuid>68211b98-1915-4533-9067-ac38d562e16f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +92,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[3]/td[2]/input</value>
-      <webElementGuid>b84c27fa-e0fe-45ea-bdf8-cfd3ca6580a2</webElementGuid>
+      <webElementGuid>924fd6c8-1a31-4a87-972f-cb5cd90cebb2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +100,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'customer.address.street' and @name = 'customer.address.street' and @type = 'text']</value>
-      <webElementGuid>aaec8408-167b-4da2-99ad-e48280cd21b2</webElementGuid>
+      <webElementGuid>da837fc6-9b04-40f2-bbc7-ee4e82a19181</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
