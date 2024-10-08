@@ -9,6 +9,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Address_customer.address.street_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_DEMOQA/path",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "internal:label\u003d\"Expand all\"i",
+      "proposedLocatorMethod": "SMART_LOCATOR",
+      "recoveryMethod": "SMART_LOCATOR",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_DEMOQA/path_SMART_LOCATOR.png"
     }
   ]
 }
