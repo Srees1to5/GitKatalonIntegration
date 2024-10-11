@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Password_password</name>
+   <name>input_Username_username</name>
    <tag></tag>
-   <elementGuidId>71e3c3d9-2c4c-4a26-b118-fc9ef4c943c0</elementGuidId>
+   <elementGuidId>ee599981-af0f-4b60-afb0-47721cc19d7e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -11,14 +11,14 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;password&quot;]</value>
+         <value>input[name=&quot;username&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:attr=[placeholder=&quot;Password&quot;i]</value>
+         <value>internal:attr=[placeholder=&quot;Username&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>68557059-a96c-4c01-bd27-2eeeae18bb7a</webElementGuid>
+      <webElementGuid>2ec4e331-7074-457b-918e-598331c79bbd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,31 +37,23 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-input oxd-input--focus</value>
-      <webElementGuid>43e49b9d-1d5a-4f53-b5fc-c16fe6ea51ee</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>password</value>
-      <webElementGuid>973db576-bc1e-4a38-9a10-bed12207e795</webElementGuid>
+      <webElementGuid>2eb680df-e2ed-4f35-9d82-808cc2bd9b59</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>cf3f2fb3-6642-4cf9-a58a-370722655551</webElementGuid>
+      <value>username</value>
+      <webElementGuid>10679db3-b86a-402c-a9a9-22f335992b47</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Password</value>
-      <webElementGuid>bdfb3272-b5fa-42c4-bd86-4f29a79fd796</webElementGuid>
+      <value>Username</value>
+      <webElementGuid>666b9779-dbc1-4991-aaa5-d9bcccd510aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,38 +61,38 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;orangehrm-login-layout&quot;]/div[@class=&quot;orangehrm-login-layout-blob&quot;]/div[@class=&quot;orangehrm-login-container&quot;]/div[@class=&quot;orangehrm-login-slot-wrapper&quot;]/div[@class=&quot;orangehrm-login-slot&quot;]/div[@class=&quot;orangehrm-login-form&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]/div[2]/input[@class=&quot;oxd-input oxd-input--focus&quot;]</value>
-      <webElementGuid>5d491259-977d-440c-8ce4-cfeaf2315841</webElementGuid>
+      <webElementGuid>72157b55-59f0-4a18-81bd-c6232e66f4f9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='password']</value>
-      <webElementGuid>9e0e8f3b-0e4a-4ea9-a6f6-da6a2668c643</webElementGuid>
+      <value>//input[@name='username']</value>
+      <webElementGuid>eff44e61-604f-49ea-9708-4ee5c79d7e81</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div/div[2]/div[2]/form/div[2]/div/div[2]/input</value>
-      <webElementGuid>57f8e5af-b4b1-47c3-b522-bf33edb62cbb</webElementGuid>
+      <value>//div[@id='app']/div/div/div/div/div[2]/div[2]/form/div/div/div[2]/input</value>
+      <webElementGuid>7de7fef1-b5b1-4b27-b740-33c07c7aecdb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div[2]/input</value>
-      <webElementGuid>a4463164-ca46-48d5-bf2d-a4fe746b81b8</webElementGuid>
+      <value>//div[2]/input</value>
+      <webElementGuid>57cd984b-d55a-4f4e-bc4b-a6e1761290ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'password' and @name = 'password' and @placeholder = 'Password']</value>
-      <webElementGuid>3912ce62-e6a9-4eba-9169-d146e9591c29</webElementGuid>
+      <value>//input[@name = 'username' and @placeholder = 'Username']</value>
+      <webElementGuid>a042e011-4cd9-4b30-8227-5d80724ac3a3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

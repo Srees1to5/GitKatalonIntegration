@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Username_username</name>
+   <name>a_Admin</name>
    <tag></tag>
-   <elementGuidId>2a42dd09-92c2-4510-a609-e7b06dad9819</elementGuidId>
+   <elementGuidId>fa25d3d5-bd53-44b7-869e-797fe8f50bbc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -11,14 +11,14 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;username&quot;]</value>
+         <value>a.oxd-main-menu-item</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:attr=[placeholder=&quot;Username&quot;i]</value>
+         <value>internal:role=link[name=&quot;Admin&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,71 +28,71 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-      <webElementGuid>e3153acb-d3f4-4d6e-abab-fd3e38bc6879</webElementGuid>
+      <value>a</value>
+      <webElementGuid>7be395b9-75d5-4d35-8c82-c713837265b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>oxd-input oxd-input--focus</value>
-      <webElementGuid>d7d51f94-709e-48d1-af5e-284463f7c815</webElementGuid>
+      <value>oxd-main-menu-item</value>
+      <webElementGuid>b19d8eaa-52d6-48db-8093-df1e5d3ebaff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>href</name>
       <type>Main</type>
-      <value>username</value>
-      <webElementGuid>65fddf4f-3dae-4009-bc2a-2222a0ff01d9</webElementGuid>
+      <value>/web/index.php/admin/viewAdminModule</value>
+      <webElementGuid>f6cffb06-339a-4496-81da-372b18a07386</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>text</name>
       <type>Main</type>
-      <value>Username</value>
-      <webElementGuid>948d9fd4-be95-45a4-abbe-d35af0658038</webElementGuid>
+      <value>Admin</value>
+      <webElementGuid>0702c55c-9fea-48f0-9827-9fa761d044ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;orangehrm-login-layout&quot;]/div[@class=&quot;orangehrm-login-layout-blob&quot;]/div[@class=&quot;orangehrm-login-container&quot;]/div[@class=&quot;orangehrm-login-slot-wrapper&quot;]/div[@class=&quot;orangehrm-login-slot&quot;]/div[@class=&quot;orangehrm-login-form&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]/div[2]/input[@class=&quot;oxd-input oxd-input--focus&quot;]</value>
-      <webElementGuid>1cacac35-0553-44ea-995f-7d45145c7b64</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout orangehrm-upgrade-layout&quot;]/div[@class=&quot;oxd-layout-navigation&quot;]/aside[@class=&quot;oxd-sidepanel&quot;]/nav[@class=&quot;oxd-navbar-nav&quot;]/div[@class=&quot;oxd-sidepanel-body&quot;]/ul[@class=&quot;oxd-main-menu&quot;]/li[@class=&quot;oxd-main-menu-item-wrapper&quot;]/a[@class=&quot;oxd-main-menu-item&quot;]</value>
+      <webElementGuid>ef663cc4-08f7-423c-9650-9e9f8766f937</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//input[@name='username']</value>
-      <webElementGuid>151b8930-4ade-4e7d-a6c4-e3c6f3297a9b</webElementGuid>
+      <value>//div[@id='app']/div/div/aside/nav/div[2]/ul/li/a</value>
+      <webElementGuid>7f8e0b1c-2e70-438e-9a06-154b75e2b0fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:href</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div/div[2]/div[2]/form/div/div/div[2]/input</value>
-      <webElementGuid>21a21074-6916-46d7-ae26-007a017a66e9</webElementGuid>
+      <value>//a[contains(@href, '/web/index.php/admin/viewAdminModule')]</value>
+      <webElementGuid>c9049298-5e38-45b6-bd57-efb511d0a876</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/input</value>
-      <webElementGuid>4ffd43f2-0c77-4e59-afec-ea57aeb66f87</webElementGuid>
+      <value>//li/a</value>
+      <webElementGuid>00c154d5-2bb0-4483-8c51-b5143a5449f8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@name = 'username' and @placeholder = 'Username']</value>
-      <webElementGuid>441ac2f5-565e-4771-a366-2ee3aad5772b</webElementGuid>
+      <value>//a[@href = '/web/index.php/admin/viewAdminModule' and (text() = 'Admin' or . = 'Admin')]</value>
+      <webElementGuid>23f93960-1f90-48be-ab27-eb64b3eb8939</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
