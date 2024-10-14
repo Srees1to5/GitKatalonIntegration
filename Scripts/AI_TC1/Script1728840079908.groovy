@@ -41,6 +41,7 @@ WebUI.openBrowser('')
 
 def expText
 
+
 WebUI.navigateToUrl(url)
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'))
