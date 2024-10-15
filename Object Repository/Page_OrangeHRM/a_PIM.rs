@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Username_username</name>
+   <name>a_PIM</name>
    <tag></tag>
-   <elementGuidId>2a42dd09-92c2-4510-a609-e7b06dad9819</elementGuidId>
+   <elementGuidId>9d042155-e77b-4a0c-8522-49773574b014</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;username&quot;]</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='username']</value>
+         <value>//div[@id='app']/div/div/aside/nav/div[2]/ul/li[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:attr=[placeholder=&quot;Username&quot;i]</value>
+         <value>internal:role=link[name=&quot;PIM&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,71 +28,71 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-      <webElementGuid>70975762-7415-4220-af31-02b8ae1070c8</webElementGuid>
+      <value>a</value>
+      <webElementGuid>a15935fa-5be3-4e39-b33a-9e26e78376eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>oxd-input oxd-input--focus</value>
-      <webElementGuid>d8bf2363-1907-4d98-bd14-8dafd68e9855</webElementGuid>
+      <value>oxd-main-menu-item</value>
+      <webElementGuid>3e6446b6-2748-47f4-bce6-86834565f547</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>href</name>
       <type>Main</type>
-      <value>username</value>
-      <webElementGuid>fcede17e-ac1c-4fac-853a-82a02b3e9dd2</webElementGuid>
+      <value>/web/index.php/pim/viewPimModule</value>
+      <webElementGuid>7cd876e7-ab9a-4ab9-a9c9-4807635ef0ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>text</name>
       <type>Main</type>
-      <value>Username</value>
-      <webElementGuid>6e4ef36d-2a67-400e-8715-68b578ef1b1e</webElementGuid>
+      <value>PIM</value>
+      <webElementGuid>e8af0ff9-0885-48cc-99e2-44aeffa50c2c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;orangehrm-login-layout&quot;]/div[@class=&quot;orangehrm-login-layout-blob&quot;]/div[@class=&quot;orangehrm-login-container&quot;]/div[@class=&quot;orangehrm-login-slot-wrapper&quot;]/div[@class=&quot;orangehrm-login-slot&quot;]/div[@class=&quot;orangehrm-login-form&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]/div[2]/input[@class=&quot;oxd-input oxd-input--focus&quot;]</value>
-      <webElementGuid>dfa555eb-c218-4b4e-ac5b-61cc4223b30e</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout orangehrm-upgrade-layout&quot;]/div[@class=&quot;oxd-layout-navigation&quot;]/aside[@class=&quot;oxd-sidepanel&quot;]/nav[@class=&quot;oxd-navbar-nav&quot;]/div[@class=&quot;oxd-sidepanel-body&quot;]/ul[@class=&quot;oxd-main-menu&quot;]/li[@class=&quot;oxd-main-menu-item-wrapper&quot;]/a[@class=&quot;oxd-main-menu-item&quot;]</value>
+      <webElementGuid>096403a1-0abf-4f9c-932c-a865ed8b7731</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//input[@name='username']</value>
-      <webElementGuid>79c00395-0b82-42db-a76f-d63a259bfc43</webElementGuid>
+      <value>//div[@id='app']/div/div/aside/nav/div[2]/ul/li[2]/a</value>
+      <webElementGuid>001bcc33-3945-4758-9b05-d92042686d33</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:href</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div/div[2]/div[2]/form/div/div/div[2]/input</value>
-      <webElementGuid>b4e875ea-abf0-41e2-acb9-eea36f377e4b</webElementGuid>
+      <value>//a[contains(@href, '/web/index.php/pim/viewPimModule')]</value>
+      <webElementGuid>61db724c-4c58-4998-87a2-e78c77584820</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/input</value>
-      <webElementGuid>13d53fe0-efb4-409b-92d2-f21066fa7bf8</webElementGuid>
+      <value>//li[2]/a</value>
+      <webElementGuid>f3f326f8-87ea-4522-8d46-3e6031928868</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@name = 'username' and @placeholder = 'Username']</value>
-      <webElementGuid>236c93da-c5ff-4ae2-9f9d-c3f969563151</webElementGuid>
+      <value>//a[@href = '/web/index.php/pim/viewPimModule' and (text() = 'PIM' or . = 'PIM')]</value>
+      <webElementGuid>7e963c66-8a24-4c20-93fd-4d9eafaa00c6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
