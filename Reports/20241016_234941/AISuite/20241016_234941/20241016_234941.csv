@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AISuite,Chrome 129.0.0.0,,,16-10-2024 23:50:41,16-10-2024 23:51:06,25.512s,PASSED
+,,,,,,,
+Test Cases/AI3,Chrome 129.0.0.0,,3,16-10-2024 23:50:44,16-10-2024 23:51:06,22.813s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,16-10-2024 23:50:46,16-10-2024 23:51:01,15.635s,PASSED
+maximizeWindow(),Chrome 129.0.0.0,,,16-10-2024 23:51:01,16-10-2024 23:51:02,0.815s,PASSED
+"navigateToUrl(""https://rahulshettyacademy.com/client"")",Chrome 129.0.0.0,,,16-10-2024 23:51:02,16-10-2024 23:51:06,4.277s,PASSED
