@@ -22,8 +22,7 @@ import internal.GlobalVariable
 
 public class customfunctionpwd {
 	@Keyword
-	def pwdString(String pwd)
-	{
+	def pwdString(String pwd) {
 		println("password"+pwd)
 	}
 }

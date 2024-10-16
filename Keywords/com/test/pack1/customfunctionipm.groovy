@@ -1,3 +1,4 @@
+
 package com.test.pack1
 
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
@@ -22,11 +23,7 @@ import internal.GlobalVariable
 
 public class customfunctionipm {
 	@Keyword
-	def createuser()
-	{
+	def createuser() {
 		println("newtc")
 	}
-	
-	
-	
 }

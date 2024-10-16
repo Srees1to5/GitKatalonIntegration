@@ -49,12 +49,11 @@ class customfunction2 {
 		webDriver.navigate().refresh()
 		KeywordUtil.markPassed("Refresh successfully")
 	}
-    @Keyword
-	def nameAppend(String name)
-	{
+	@Keyword
+	def nameAppend(String name) {
 		println("Hello"+name)
 	}
-	
+
 	/**
 	 * Click element
 	 * @param to Katalon test object

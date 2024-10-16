@@ -81,8 +81,7 @@ class customfunction {
 		return selectedRows
 	}
 	@Keyword
-	def printhello()
-	{
+	def printhello() {
 		println("***************helloo****")
 	}
 }
