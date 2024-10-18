@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Products</name>
+   <tag></tag>
+   <elementGuidId>66a6cfd7-0d6b-438e-8f0f-4c11afb08444</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Skip to main content'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.link</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=banner >> span >> internal:has-text=&quot;Products&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>022f01a6-0911-4772-832e-7b45dfd5bf16</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>link</value>
+      <webElementGuid>2fcd73b9-3402-4cce-92e3-609d036c0ed8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Products  </value>
+      <webElementGuid>f9acfc8a-b758-41c4-9ca7-31510cfb1922</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;b-page&quot;]/header[@class=&quot;b-page-head&quot;]/div[@class=&quot;HEADER&quot;]/div[@class=&quot;b-frame&quot;]/div[@class=&quot;inset&quot;]/nav[@class=&quot;primary&quot;]/ul[1]/li[@class=&quot;nav-megamenu nav-products&quot;]/span[@class=&quot;link&quot;]</value>
+      <webElementGuid>c6c99218-e79b-4b3c-8cda-92db06262945</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Skip to main content'])[1]/following::span[1]</value>
+      <webElementGuid>4ea32a92-3a27-438a-9cfc-9e0e1abf9f2a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Decline'])[1]/following::span[1]</value>
+      <webElementGuid>01db4396-aac2-4b8a-9d91-9338e3f0b8b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Learn More'])[1]/preceding::span[1]</value>
+      <webElementGuid>5bdb804d-ada3-4303-9e32-b1d3242d57e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='See All Integrations'])[1]/preceding::span[1]</value>
+      <webElementGuid>4d7b8e70-2d2b-4d50-8258-73d17c043eb2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Products']/parent::*</value>
+      <webElementGuid>7feba8ee-70bd-487e-ad49-72d60524aefd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span</value>
+      <webElementGuid>1e1b0dbb-2729-4527-88a9-29c7ee6d69ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Products  ' or . = 'Products  ')]</value>
+      <webElementGuid>e695bb96-f261-49d9-8f92-f59bb3a0597a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

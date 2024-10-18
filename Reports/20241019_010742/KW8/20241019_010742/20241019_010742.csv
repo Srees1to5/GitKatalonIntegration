@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+KW8,Chrome 129.0.0.0,,,19-10-2024 01:07:57,19-10-2024 01:08:56,59.772s,PASSED
+,,,,,,,
+Test Cases/PBKW,Chrome 129.0.0.0,,,19-10-2024 01:07:58,19-10-2024 01:08:56,58.793s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,19-10-2024 01:07:59,19-10-2024 01:08:05,6.206s,PASSED
+"navigateToUrl(""https://parabank.parasoft.com/parabank/index.htm;jsessionid=433A0C0C0BB91807C12AA4A71899882A"")",Chrome 129.0.0.0,,,19-10-2024 01:08:05,19-10-2024 01:08:10,4.796s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank  Welcome  Online Banking/a_Locations""))",Chrome 129.0.0.0,,,19-10-2024 01:08:10,19-10-2024 01:08:20,10.851s,PASSED
+"com.test.pack1.customfunction8.printName(""sreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"")",Chrome 129.0.0.0,,,19-10-2024 01:08:20,19-10-2024 01:08:21,0.163s,PASSED
+"click(findTestObject(""Object Repository/Page_Automated Software Testing Solutions F_4f6c59/span_Products""))",Chrome 129.0.0.0,,,19-10-2024 01:08:21,19-10-2024 01:08:21,0.513s,PASSED
+"click(findTestObject(""Object Repository/Page_Automated Software Testing Solutions F_4f6c59/span_CCtest""))",Chrome 129.0.0.0,,,19-10-2024 01:08:21,19-10-2024 01:08:29,7.616s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CCtest Check C and C Code Quality Tool_a48130/a_Try Parasoft""), 0)",Chrome 129.0.0.0,,,19-10-2024 01:08:29,19-10-2024 01:08:29,0.695s,PASSED
+"click(findTestObject(""Object Repository/Page_CCtest Check C and C Code Quality Tool_a48130/span_Solutions""))",Chrome 129.0.0.0,,,19-10-2024 01:08:29,19-10-2024 01:08:30,0.488s,PASSED
+"click(findTestObject(""Object Repository/Page_CCtest Check C and C Code Quality Tool_a48130/a_AUTOSAR C14""))",Chrome 129.0.0.0,,,19-10-2024 01:08:30,19-10-2024 01:08:35,4.678s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_AUTOSAR C Rules and Coding Standards C_501c1a/a_Contact Us""), 0)",Chrome 129.0.0.0,,,19-10-2024 01:08:35,19-10-2024 01:08:35,0.745s,PASSED
+"click(findTestObject(""Object Repository/Page_AUTOSAR C Rules and Coding Standards C_501c1a/span_Industries""))",Chrome 129.0.0.0,,,19-10-2024 01:08:35,19-10-2024 01:08:36,0.715s,PASSED
+"click(findTestObject(""Object Repository/Page_AUTOSAR C Rules and Coding Standards C_501c1a/a_Automotive""))",Chrome 129.0.0.0,,,19-10-2024 01:08:36,19-10-2024 01:08:42,5.991s,PASSED
+"click(findTestObject(""Object Repository/Page_Automotive Embedded Software Testing S_981503/span_Customer Success""))",Chrome 129.0.0.0,,,19-10-2024 01:08:42,19-10-2024 01:08:43,0.983s,PASSED
+"click(findTestObject(""Object Repository/Page_Automotive Embedded Software Testing S_981503/a_Customer Portal""))",Chrome 129.0.0.0,,,19-10-2024 01:08:43,19-10-2024 01:08:48,5.369s,PASSED
+"switchToWindowTitle(""Customer Portal Home"")",Chrome 129.0.0.0,,,19-10-2024 01:08:48,19-10-2024 01:08:52,3.961s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Customer Portal Home/a_Announcements""), 0)",Chrome 129.0.0.0,,,19-10-2024 01:08:52,19-10-2024 01:08:56,4.033s,PASSED

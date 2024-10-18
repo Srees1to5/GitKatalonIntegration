@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SelfhealSuite,Chrome 129.0.0.0,,,18-10-2024 23:45:23,18-10-2024 23:46:21,57.554s,FAILED
+,,,,,,,
+Test Cases/SauceLab/tc_selfhealingchk,Chrome 129.0.0.0,,,18-10-2024 23:45:24,18-10-2024 23:45:25,0.861s,PASSED
+return null,Chrome 129.0.0.0,,,18-10-2024 23:45:25,18-10-2024 23:45:25,0.100s,PASSED
+,,,,,,,
+Test Cases/TC_SelfHeal,Chrome 129.0.0.0,,,18-10-2024 23:45:42,18-10-2024 23:45:51,9.183s,FAILED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 129.0.0.0,,,18-10-2024 23:45:43,18-10-2024 23:45:51,8.596s,PASSED
+"click(findTestObject(""null""))",Chrome 129.0.0.0,,,18-10-2024 23:45:51,18-10-2024 23:45:51,0.173s,FAILED
+,,,,,,,
+Test Cases/TC2_CuraHealth_SelfHeal,Chrome 129.0.0.0,,,18-10-2024 23:45:51,18-10-2024 23:46:06,14.217s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,18-10-2024 23:45:52,18-10-2024 23:45:55,2.992s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 129.0.0.0,,,18-10-2024 23:45:55,18-10-2024 23:45:58,3.591s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 129.0.0.0,,,18-10-2024 23:45:58,18-10-2024 23:46:00,1.338s,PASSED
+"username = findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username"")",Chrome 129.0.0.0,,,18-10-2024 23:46:00,18-10-2024 23:46:00,0.031s,PASSED
+"setText(username, ""John Doe"")",Chrome 129.0.0.0,,,18-10-2024 23:46:00,18-10-2024 23:46:02,2.019s,PASSED
+"verifyElementPresent(username, 5)",Chrome 129.0.0.0,,,18-10-2024 23:46:02,18-10-2024 23:46:02,0.475s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""ThisIsNotAPassword"")",Chrome 129.0.0.0,,,18-10-2024 23:46:02,18-10-2024 23:46:03,1.094s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/button_Login""))",Chrome 129.0.0.0,,,18-10-2024 23:46:03,18-10-2024 23:46:05,1.585s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/textMake_Appointment""), 0)",Chrome 129.0.0.0,,,18-10-2024 23:46:05,18-10-2024 23:46:06,0.617s,PASSED
+,,,,,,,
+Test Cases/TC_CuraHealth_SelfHeal,Chrome 129.0.0.0,,,18-10-2024 23:46:06,18-10-2024 23:46:21,15.228s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,18-10-2024 23:46:06,18-10-2024 23:46:11,5.164s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 129.0.0.0,,,18-10-2024 23:46:11,18-10-2024 23:46:15,4.034s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 129.0.0.0,,,18-10-2024 23:46:15,18-10-2024 23:46:16,1.136s,PASSED
+"username = findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username"")",Chrome 129.0.0.0,,,18-10-2024 23:46:16,18-10-2024 23:46:16,0.013s,PASSED
+"setText(username, ""John Doe"")",Chrome 129.0.0.0,,,18-10-2024 23:46:16,18-10-2024 23:46:17,1.210s,PASSED
+"verifyElementPresent(username, 5)",Chrome 129.0.0.0,,,18-10-2024 23:46:17,18-10-2024 23:46:18,0.376s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""ThisIsNotAPassword"")",Chrome 129.0.0.0,,,18-10-2024 23:46:18,18-10-2024 23:46:19,1.389s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/button_Login""))",Chrome 129.0.0.0,,,18-10-2024 23:46:19,18-10-2024 23:46:20,1.418s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/textMake_Appointment""), 0)",Chrome 129.0.0.0,,,18-10-2024 23:46:20,18-10-2024 23:46:21,0.446s,PASSED

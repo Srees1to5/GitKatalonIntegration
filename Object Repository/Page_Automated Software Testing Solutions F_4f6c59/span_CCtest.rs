@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_CCtest</name>
+   <tag></tag>
+   <elementGuidId>c5b505b3-586c-46b9-b44a-750e3a8b2966</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='See All Integrations'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;C/C++test Perform static analysis &amp; unit testing for C/C++ code.&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>ded30405-8e01-42a6-85a4-a3ee591fb360</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>title</value>
+      <webElementGuid>e0032c29-e275-4e4c-8bef-e476c5710fd3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>C/C++test</value>
+      <webElementGuid>f2450b37-86af-4e79-979e-2b4574c99bf2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;b-page&quot;]/header[@class=&quot;b-page-head&quot;]/div[@class=&quot;HEADER&quot;]/div[@class=&quot;b-frame&quot;]/div[@class=&quot;inset&quot;]/nav[@class=&quot;primary&quot;]/ul[1]/li[@class=&quot;nav-megamenu nav-products active&quot;]/div[@class=&quot;megamenu-wrap&quot;]/div[@class=&quot;megamenu&quot;]/div[@class=&quot;menu&quot;]/ul[1]/li[1]/a[1]/span[@class=&quot;title&quot;]</value>
+      <webElementGuid>7b995090-579b-4250-af63-88bd6bc790c5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='See All Integrations'])[1]/following::span[1]</value>
+      <webElementGuid>36f3a7c1-ad5c-412f-bcb3-ad7b54ae8a6a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Learn More'])[1]/following::span[1]</value>
+      <webElementGuid>d35e1427-a7b6-4f9a-89a7-d97c137a36a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Perform static analysis &amp; unit testing for C/C++ code.'])[1]/preceding::span[1]</value>
+      <webElementGuid>a2750eb0-f21a-46bf-820e-91b02d47a473</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='C/C++test CT'])[1]/preceding::span[2]</value>
+      <webElementGuid>1459cc0a-93b1-4521-b8dc-633cd721ac0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='C/C++test']/parent::*</value>
+      <webElementGuid>15e626c5-1b97-40a9-8a8b-701893fc3d5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/span</value>
+      <webElementGuid>32bf1791-13c7-47fe-be28-5afa517bcbac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'C/C++test' or . = 'C/C++test')]</value>
+      <webElementGuid>dc0b04f2-6f65-4b1a-a282-c0333d321064</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

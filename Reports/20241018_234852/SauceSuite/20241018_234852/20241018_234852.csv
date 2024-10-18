@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SauceSuite,Chrome 129.0.0.0,,,18-10-2024 23:49:06,18-10-2024 23:49:22,15.946s,PASSED
+,,,,,,,
+Test Cases/dempapplotz,Chrome 129.0.0.0,,tagapplot,18-10-2024 23:49:07,18-10-2024 23:49:22,15.292s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,18-10-2024 23:49:08,18-10-2024 23:49:13,5.585s,PASSED
+"navigateToUrl(""https://demo.applitools.com/"")",Chrome 129.0.0.0,,,18-10-2024 23:49:13,18-10-2024 23:49:14,0.935s,PASSED
+"setText(findTestObject(""Object Repository/Page_ACME Demo App by Applitools/input_Username_username""), ""test"")",Chrome 129.0.0.0,,,18-10-2024 23:49:14,18-10-2024 23:49:17,2.193s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_ACME Demo App by Applitools/input_Password_password""), ""P9ET2sDE0SE="")",Chrome 129.0.0.0,,,18-10-2024 23:49:17,18-10-2024 23:49:17,0.625s,PASSED
+"click(findTestObject(""Object Repository/Page_ACME Demo App by Applitools/input_Remember Me_form-check-input""))",Chrome 129.0.0.0,,,18-10-2024 23:49:17,18-10-2024 23:49:18,0.756s,PASSED
+"click(findTestObject(""Object Repository/Page_ACME Demo App by Applitools/a_Sign in""))",Chrome 129.0.0.0,,,18-10-2024 23:49:18,18-10-2024 23:49:19,1.414s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ACME demo app/h6_Your nearest branch closes in 30m 5s""), 0)",Chrome 129.0.0.0,,,18-10-2024 23:49:19,18-10-2024 23:49:21,1.279s,PASSED
+"click(findTestObject(""Object Repository/Page_ACME demo app/a_Restaurant  Cafe""))",Chrome 129.0.0.0,,,18-10-2024 23:49:21,18-10-2024 23:49:22,1.185s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ACME demo app/span_Starbucks coffee""), 0)",Chrome 129.0.0.0,,,18-10-2024 23:49:22,18-10-2024 23:49:22,0.389s,PASSED
