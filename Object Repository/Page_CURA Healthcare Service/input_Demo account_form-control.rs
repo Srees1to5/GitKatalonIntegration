@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textarea_Comment_comment</name>
+   <name>input_Demo account_form-control</name>
    <tag></tag>
-   <elementGuidId>240a3f42-1bc1-43a6-9c22-393351e28fa4</elementGuidId>
+   <elementGuidId>ff4137b0-a2f6-485b-afa4-2b8e56e0db02</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//textarea[@id='txt_comment']</value>
+         <value>//input[@value='ThisIsNotAPassword']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#txt_comment</value>
+         <value>div.col-sm-offset-4.col-sm-8 > div.input-group > input.form-control</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:attr=[placeholder=&quot;Comment&quot;i]</value>
+         <value>internal:attr=[placeholder=&quot;Password&quot;i] >> nth=0</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,8 +28,16 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>textarea</value>
-      <webElementGuid>7045cfa5-66e2-4114-b56d-af1b4090e4cd</webElementGuid>
+      <value>input</value>
+      <webElementGuid>165252d1-ae78-4909-9743-f787ffe8e803</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>e9151636-97cf-4073-a4dd-ca341f3ee237</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,78 +45,70 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>1911186d-f5bd-4c8e-a722-2c0bdb5cb9cf</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>txt_comment</value>
-      <webElementGuid>f9d249ed-1821-4a74-bf22-4c993c7e814e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>comment</value>
-      <webElementGuid>2792bb3a-8a8d-4484-87d7-71259a4fbf03</webElementGuid>
+      <webElementGuid>ce8ecdf6-22a6-4f8c-8f95-31133ed7e7a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Comment</value>
-      <webElementGuid>1c8e6b43-31bd-4d5c-a4c8-e0cf65c7df20</webElementGuid>
+      <value>Password</value>
+      <webElementGuid>dc4b58fb-0459-4970-9296-7bd37185e601</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>rows</name>
+      <name>aria-describedby</name>
       <type>Main</type>
-      <value>10</value>
-      <webElementGuid>5c93d3ba-410f-4be5-9b6b-fac2861efdba</webElementGuid>
+      <value>demo_password_label</value>
+      <webElementGuid>0fa32dc3-bf71-4bf6-a3ce-e48aac28de41</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>ThisIsNotAPassword</value>
+      <webElementGuid>2cd15fde-2d6c-41ee-8b84-14e241182d41</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;txt_comment&quot;)</value>
-      <webElementGuid>5652dcd3-37ec-490b-9874-84bbedd92cc2</webElementGuid>
+      <value>id(&quot;login&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-offset-3 col-sm-6&quot;]/form[@class=&quot;form-horizontal&quot;]/div[@class=&quot;alert alert-info&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-sm-offset-4 col-sm-8&quot;]/div[@class=&quot;input-group&quot;]/input[@class=&quot;form-control&quot;]</value>
+      <webElementGuid>e20b1eaf-b97f-47a2-828f-ed969cd9d13d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//textarea[@id='txt_comment']</value>
-      <webElementGuid>ec680993-35b1-4ac6-97c3-bd7f511a2c49</webElementGuid>
+      <value>//input[@value='ThisIsNotAPassword']</value>
+      <webElementGuid>d63f16a8-0b58-452a-b782-bb168d2ccbae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='appointment']/div/div/form/div[5]/div/textarea</value>
-      <webElementGuid>3597c8cb-c662-494f-a35b-70ebd0227216</webElementGuid>
+      <value>//section[@id='login']/div/div/div[2]/form/div/div[2]/div/div/input</value>
+      <webElementGuid>cce5dddc-23d1-49f3-bd7e-86c370cf3510</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//textarea</value>
-      <webElementGuid>d5e02a05-fe44-4496-9888-0fcb9147e8d5</webElementGuid>
+      <value>//div[2]/div/div/input</value>
+      <webElementGuid>a68c57c9-2dc3-48d6-b693-eee80e003f3c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//textarea[@id = 'txt_comment' and @name = 'comment' and @placeholder = 'Comment']</value>
-      <webElementGuid>fb9c6858-0529-4f4a-a998-f3d2f22e0b91</webElementGuid>
+      <value>//input[@type = 'text' and @placeholder = 'Password']</value>
+      <webElementGuid>d7b54d64-63d5-402d-a9fc-19eb60e7810b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

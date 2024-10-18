@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textarea_Comment_comment</name>
+   <name>a_CURA Healthcare_menu-toggle</name>
    <tag></tag>
-   <elementGuidId>240a3f42-1bc1-43a6-9c22-393351e28fa4</elementGuidId>
+   <elementGuidId>f0024221-b402-4dd3-aa3b-5e26b9252ad0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//textarea[@id='txt_comment']</value>
+         <value>//a[@id='menu-toggle']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#txt_comment</value>
+         <value>#menu-toggle</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:attr=[placeholder=&quot;Comment&quot;i]</value>
+         <value>internal:role=link[name=&quot;&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,87 +28,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>textarea</value>
-      <webElementGuid>7045cfa5-66e2-4114-b56d-af1b4090e4cd</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>form-control</value>
-      <webElementGuid>1911186d-f5bd-4c8e-a722-2c0bdb5cb9cf</webElementGuid>
+      <value>a</value>
+      <webElementGuid>b4635c58-51be-4a41-a8c1-204fa979ebf0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>txt_comment</value>
-      <webElementGuid>f9d249ed-1821-4a74-bf22-4c993c7e814e</webElementGuid>
+      <value>menu-toggle</value>
+      <webElementGuid>5319303a-85ab-484f-a29b-3125ab6b0afb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>href</name>
       <type>Main</type>
-      <value>comment</value>
-      <webElementGuid>2792bb3a-8a8d-4484-87d7-71259a4fbf03</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Comment</value>
-      <webElementGuid>1c8e6b43-31bd-4d5c-a4c8-e0cf65c7df20</webElementGuid>
+      <value>#</value>
+      <webElementGuid>3662aa87-3b05-486a-bfae-dcb645a2900e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>rows</name>
+      <name>class</name>
       <type>Main</type>
-      <value>10</value>
-      <webElementGuid>5c93d3ba-410f-4be5-9b6b-fac2861efdba</webElementGuid>
+      <value>btn btn-dark btn-lg toggle</value>
+      <webElementGuid>9e2a06c7-4e32-45b9-919b-180f8032b145</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;txt_comment&quot;)</value>
-      <webElementGuid>5652dcd3-37ec-490b-9874-84bbedd92cc2</webElementGuid>
+      <value>id(&quot;menu-toggle&quot;)</value>
+      <webElementGuid>4c9ce917-44f1-4c1e-ac6c-5391a9a73e1f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//textarea[@id='txt_comment']</value>
-      <webElementGuid>ec680993-35b1-4ac6-97c3-bd7f511a2c49</webElementGuid>
+      <value>//a[@id='menu-toggle']</value>
+      <webElementGuid>526ce727-c3b3-4ecd-844d-58aa6aa9f8cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//section[@id='appointment']/div/div/form/div[5]/div/textarea</value>
-      <webElementGuid>3597c8cb-c662-494f-a35b-70ebd0227216</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CURA Healthcare'])[1]/preceding::a[2]</value>
+      <webElementGuid>c8cc7521-4bee-4f73-b42e-91d04a7b3e3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/preceding::a[3]</value>
+      <webElementGuid>3f4bc128-33ed-449d-a57e-27c58c171c75</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '#')]</value>
+      <webElementGuid>6f7a4144-ccc7-48e5-a72d-398422774b41</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//textarea</value>
-      <webElementGuid>d5e02a05-fe44-4496-9888-0fcb9147e8d5</webElementGuid>
+      <value>//a</value>
+      <webElementGuid>ab61bdeb-bd6a-4529-bb08-fd74970682df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//textarea[@id = 'txt_comment' and @name = 'comment' and @placeholder = 'Comment']</value>
-      <webElementGuid>fb9c6858-0529-4f4a-a998-f3d2f22e0b91</webElementGuid>
+      <value>//a[@id = 'menu-toggle' and @href = '#']</value>
+      <webElementGuid>5fb77fbc-4802-4028-8a02-c8e7e4e754b0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

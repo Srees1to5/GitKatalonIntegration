@@ -17,15 +17,32 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+
 /*
-*open browser in full screen mode and navigate to https://webflow.com/login"
-*click on forgot password link*
-*/
-// Open browser in full screen mode
+ * Open browser
+ * Navigate to url https://katalon-demo-cura.herokuapp.com/
+ * Enter username
+ */
+
+// Open browser and navigate to the specified URL
 WebUI.openBrowser('')
+WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-// Navigate to the specified URL
-WebUI.navigateToUrl('https://webflow.com/login')
+/*click on the menu a_CURA Healthcare_menu-toggle in the page Page_CURA Healthcare Service
+ */
 
-// Open browser in full screen mode and navigate to the specified URL
+// Click on the menu toggle button on the CURA Healthcare Service page
+WebUI.click(findTestObject('Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
+//WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
+
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Home'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service'), 
+    0)
+
+
+
+
+
+
 

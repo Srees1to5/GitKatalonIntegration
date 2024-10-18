@@ -18,14 +18,10 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 /*
-*open browser in full screen mode and navigate to https://webflow.com/login"
-*click on forgot password link*
+*open browser in full screen mode and navigate to https://rahulshettyacademy.com/client"
+*
 */
-// Open browser in full screen mode
-WebUI.openBrowser('')
-
-// Navigate to the specified URL
-WebUI.navigateToUrl('https://webflow.com/login')
-
 // Open browser in full screen mode and navigate to the specified URL
-
+WebUI.openBrowser('')
+WebUI.maximizeWindow()
+WebUI.navigateToUrl('https://rahulshettyacademy.com/client')

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Login</name>
+   <name>a_Locations</name>
    <tag></tag>
-   <elementGuidId>1688ab77-6748-4e68-9a4e-1ed76eda1965</elementGuidId>
+   <elementGuidId>3552d535-341c-46b4-96bc-05b634cbae13</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='btn-login']</value>
+         <value>//div[@id='headerPanel']/ul/li[5]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#btn-login</value>
+         <value>li:nth-of-type(5) > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Login&quot;i]</value>
+         <value>#headerPanel >> internal:role=link[name=&quot;Locations&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,111 +28,111 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>9eda574c-27e0-4229-a807-6826e529acf8</webElementGuid>
+      <value>a</value>
+      <webElementGuid>ac5049cd-dba6-4264-8de7-d710ff25e528</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>href</name>
       <type>Main</type>
-      <value>btn-login</value>
-      <webElementGuid>5825b635-899f-4543-88dc-8ee02f078a8d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>6bb73849-4a4e-450d-bc18-dd6f694e1312</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>btn btn-default</value>
-      <webElementGuid>1e427bc6-517f-4271-9b44-3bb23101d9c8</webElementGuid>
+      <value>http://www.parasoft.com/jsp/pr/contacts.jsp</value>
+      <webElementGuid>327eb2af-014c-456a-9301-b5284afa9a1b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Login</value>
-      <webElementGuid>89d8aa71-184e-47fe-981e-ec4b63470781</webElementGuid>
+      <value>Locations</value>
+      <webElementGuid>ebe78fc6-10f9-46bf-914d-d9826312a7c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;btn-login&quot;)</value>
-      <webElementGuid>32b487ef-92e5-479b-a6a7-9935d6e0ff15</webElementGuid>
+      <value>id(&quot;headerPanel&quot;)/ul[@class=&quot;leftmenu&quot;]/li[5]/a[1]</value>
+      <webElementGuid>fdd3c8b9-8649-45c7-9df1-569a13753c6d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//button[@id='btn-login']</value>
-      <webElementGuid>983dcade-a7c2-49e9-8017-fe9e177153f4</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='login']/div/div/div[2]/form/div[4]/div/button</value>
-      <webElementGuid>1542b914-814a-4ec5-be4a-79a57d6eb8ea</webElementGuid>
+      <value>//div[@id='headerPanel']/ul/li[5]/a</value>
+      <webElementGuid>4656e51b-7603-4e09-9b35-9df6311c92b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Locations')]</value>
+      <webElementGuid>c522827d-aaeb-4567-8504-37869c4a32bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
-      <webElementGuid>b5f22dc0-77cd-4ba4-b077-8532d0ce0034</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Products'])[1]/following::a[1]</value>
+      <webElementGuid>dda21d78-455c-4914-aeee-7066d0f32015</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::button[1]</value>
-      <webElementGuid>5607529f-0ead-4028-b9c1-0eba055ea473</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Services'])[1]/following::a[2]</value>
+      <webElementGuid>532c8ff2-d0f7-44fa-b401-2ca7e45ac195</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='CURA Healthcare Service'])[3]/preceding::button[1]</value>
-      <webElementGuid>d3f27d30-2974-482d-a17f-fd7a52da7625</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Admin Page'])[1]/preceding::a[1]</value>
+      <webElementGuid>f0886366-c2ab-4f18-b770-3342d1c0254e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='(678) 813-1KMS'])[1]/preceding::button[1]</value>
-      <webElementGuid>05dcb3ca-f17a-4908-a9d1-8180619e6971</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='home'])[1]/preceding::a[2]</value>
+      <webElementGuid>ef965b8c-e374-4ee3-8e17-b33f818b5784</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Locations']/parent::*</value>
+      <webElementGuid>d6a12228-a058-4ade-8a2b-d6c2cfafd8ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[@href='http://www.parasoft.com/jsp/pr/contacts.jsp']</value>
+      <webElementGuid>f0bc0ee9-870b-44a6-b567-bff5e5e3ab51</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>cc003aa4-7fcf-4e97-a034-0bf3fd323f06</webElementGuid>
+      <value>//li[5]/a</value>
+      <webElementGuid>4db11e82-7702-4c75-a52b-66f14161002e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@id = 'btn-login' and @type = 'submit' and (text() = 'Login' or . = 'Login')]</value>
-      <webElementGuid>e393d614-5dec-470d-a1c1-d962be9063bc</webElementGuid>
+      <value>//a[@href = 'http://www.parasoft.com/jsp/pr/contacts.jsp' and (text() = 'Locations' or . = 'Locations')]</value>
+      <webElementGuid>5b40e9ef-b5cd-4b31-9902-afd09db189e8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

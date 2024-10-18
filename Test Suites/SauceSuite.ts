@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>CuraTestSuite</name>
+   <name>SauceSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,12 +10,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>2f6bd1c0-44af-44af-aaf9-da25f3f6c2d6</testSuiteGuid>
+   <testSuiteGuid>c1c74e28-d5e2-4212-afe2-087e75dcb1f2</testSuiteGuid>
    <testCaseLink>
-      <guid>241fcdd4-6411-4f73-be0b-fb1742589721</guid>
+      <guid>74225d79-4bcc-4751-8fc4-dbb213c5424b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_CuraHealth_SelfHeal</testCaseId>
+      <testCaseId>Test Cases/dempapplotz</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

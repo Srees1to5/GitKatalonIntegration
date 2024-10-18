@@ -17,15 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-/*
-*open browser in full screen mode and navigate to https://webflow.com/login"
-*click on forgot password link*
-*/
-// Open browser in full screen mode
 WebUI.openBrowser('')
 
-// Navigate to the specified URL
-WebUI.navigateToUrl('https://webflow.com/login')
+WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-// Open browser in full screen mode and navigate to the specified URL
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'))
+
+CustomKeywords.'com.test.pack3.customfunction7.add'(10, 10)
+
+WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), '')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), 'P9ET2sDE0SE=')
+
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
 

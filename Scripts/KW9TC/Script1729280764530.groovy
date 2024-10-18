@@ -17,15 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-/*
-*open browser in full screen mode and navigate to https://webflow.com/login"
-*click on forgot password link*
-*/
-// Open browser in full screen mode
 WebUI.openBrowser('')
 
-// Navigate to the specified URL
-WebUI.navigateToUrl('https://webflow.com/login')
+WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 
-// Open browser in full screen mode and navigate to the specified URL
+WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/p_Forgot your password'))
+
+WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_username'), 'test')
+
+WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/button_Reset Password'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_OrangeHRM/h6_Reset Password link sent successfully'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_OrangeHRM/p_If the email does not arrive, please cont_a09402'), 
+    0)
+
+CustomKeywords.'com.test.pack1.KW9.verifyele'()
 
