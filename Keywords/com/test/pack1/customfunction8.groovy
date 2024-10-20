@@ -22,8 +22,7 @@ import internal.GlobalVariable
 
 public class customfunction8 {
 	@Keyword
-	def printName(String name)
-	{
+	def printName(String name) {
 		println("sreee")
 	}
 }

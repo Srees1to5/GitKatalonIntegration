@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ai10ts,Chrome 129.0.0.0,,,19-10-2024 22:47:52,19-10-2024 22:48:31,38.188s,FAILED
+,,,,,,,
+Test Cases/AI10tc,Chrome 129.0.0.0,,,19-10-2024 22:48:18,19-10-2024 22:48:31,12.920s,FAILED
+"openBrowser("""")",Chrome 129.0.0.0,,,19-10-2024 22:48:18,19-10-2024 22:48:25,7.201s,PASSED
+"navigateToUrl(""https://www.tutorialspoint.com/"")",Chrome 129.0.0.0,,,19-10-2024 22:48:25,19-10-2024 22:48:30,5.395s,PASSED
+"click(findTestObject(""Page_Tools QA - Selenium Training/sql_link""))",Chrome 129.0.0.0,,,19-10-2024 22:48:30,19-10-2024 22:48:30,0.037s,FAILED

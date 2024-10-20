@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Suite9,Chrome 129.0.0.0,,,19-10-2024 01:47:45,19-10-2024 01:48:13,28.274s,PASSED
+,,,,,,,
+Test Cases/KW9TC,Chrome 129.0.0.0,,,19-10-2024 01:47:46,19-10-2024 01:48:13,27.014s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,19-10-2024 01:47:48,19-10-2024 01:47:58,9.856s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 129.0.0.0,,,19-10-2024 01:47:58,19-10-2024 01:48:05,7.069s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/p_Forgot your password""))",Chrome 129.0.0.0,,,19-10-2024 01:48:05,19-10-2024 01:48:07,2.739s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_username""), ""test"")",Chrome 129.0.0.0,,,19-10-2024 01:48:07,19-10-2024 01:48:09,1.641s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/button_Reset Password""))",Chrome 129.0.0.0,,,19-10-2024 01:48:09,19-10-2024 01:48:11,2.033s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_OrangeHRM/h6_Reset Password link sent successfully""), 0)",Chrome 129.0.0.0,,,19-10-2024 01:48:11,19-10-2024 01:48:12,1.146s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_OrangeHRM/p_If the email does not arrive, please cont_a09402""), 0)",Chrome 129.0.0.0,,,19-10-2024 01:48:12,19-10-2024 01:48:13,0.521s,PASSED
+com.test.pack1.KW9.verifyele(),Chrome 129.0.0.0,,,19-10-2024 01:48:13,19-10-2024 01:48:13,0.085s,PASSED

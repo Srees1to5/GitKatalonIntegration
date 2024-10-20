@@ -49,7 +49,7 @@ class customfunction7 {
 		webDriver.navigate().refresh()
 		KeywordUtil.markPassed("Refresh successfully")
 	}
-    @Keyword  
+	@Keyword
 	def add(int a, int b) {
 		sum=a+b
 		return sum

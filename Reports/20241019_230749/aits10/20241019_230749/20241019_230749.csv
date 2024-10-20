@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+aits10,Chrome 129.0.0.0,,,19-10-2024 23:08:06,19-10-2024 23:09:51,1m - 45.478s,FAILED
+,,,,,,,
+Test Cases/ai10tstcs,Chrome 129.0.0.0,,,19-10-2024 23:09:00,19-10-2024 23:09:51,51.338s,FAILED
+"openBrowser("""")",Chrome 129.0.0.0,,,19-10-2024 23:09:00,19-10-2024 23:09:05,4.840s,PASSED
+"navigateToUrl(""https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&ifkv=ARpgrqcKnzqZtk5pIjpOXG7fp32Wd5xnAUSNzNZ0dkvjFwct7zVLfrlgoE8h5v44aSM0atZphTPe&osid=1&passive=1209600&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1409785973%3A1729359233004977&ddm=0"")",Chrome 129.0.0.0,,,19-10-2024 23:09:05,19-10-2024 23:09:09,3.750s,PASSED
+"click(findTestObject(""Object Repository/Page_Gmail/button_Forgot email""))",Chrome 129.0.0.0,,,19-10-2024 23:09:09,19-10-2024 23:09:11,2.399s,PASSED
+"setText(findTestObject(""Object Repository/Page_Gmail/input_Enter your phone number or recovery e_b488e7""), ""test@test.com"")",Chrome 129.0.0.0,,,19-10-2024 23:09:11,19-10-2024 23:09:13,1.677s,PASSED
+"click(findTestObject(""Object Repository/Page_Gmail/span_Next""))",Chrome 129.0.0.0,,,19-10-2024 23:09:13,19-10-2024 23:09:14,0.568s,PASSED
+"setText(findTestObject(""Object Repository/Page_Gmail/input_Enter the name on your Google Account_585949""), ""tests"")",Chrome 129.0.0.0,,,19-10-2024 23:09:14,19-10-2024 23:09:16,2.589s,PASSED
+"click(findTestObject(""Object Repository/Page_Gmail/input_Enter the name on your Google Account_585949""))",Chrome 129.0.0.0,,,19-10-2024 23:09:16,19-10-2024 23:09:17,0.681s,PASSED
+"doubleClick(findTestObject(""Object Repository/Page_Gmail/input_Enter the name on your Google Account_585949""))",Chrome 129.0.0.0,,,19-10-2024 23:09:17,19-10-2024 23:09:17,0.578s,PASSED
+"setText(findTestObject(""Object Repository/Page_Gmail/input_Enter the name on your Google Account_a2d055""), ""s"")",Chrome 129.0.0.0,,,19-10-2024 23:09:17,19-10-2024 23:09:18,1.000s,PASSED
+"click(findTestObject(""Object Repository/Page_Gmail/div_Enter the name on your Google Account_V_30c19e""))",Chrome 129.0.0.0,,,19-10-2024 23:09:18,19-10-2024 23:09:51,32.883s,FAILED

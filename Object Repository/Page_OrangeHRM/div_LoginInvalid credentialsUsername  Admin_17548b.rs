@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_LoginInvalid credentialsUsername  Admin_17548b</name>
+   <tag></tag>
+   <elementGuidId>565a3ddc-9585-4113-86aa-8d72ed3b6e43</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.orangehrm-login-slot</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;LoginInvalid credentialsUsername : AdminPassword : admin123UsernamePassword Logi&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>828116cb-0af2-40d1-9c71-ef7b62c23f46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>orangehrm-login-slot</value>
+      <webElementGuid>566d6090-86a0-4cee-8dce-1fd8c8bf2a89</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>LoginInvalid credentialsUsername : AdminPassword : admin123UsernamePassword Login Forgot your password? OrangeHRM OS 5.7© 2005 - 2024 OrangeHRM, Inc. All rights reserved.</value>
+      <webElementGuid>9c51b47f-f055-43cf-b94e-dd03f9b0a104</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;orangehrm-login-layout&quot;]/div[@class=&quot;orangehrm-login-layout-blob&quot;]/div[@class=&quot;orangehrm-login-container&quot;]/div[@class=&quot;orangehrm-login-slot-wrapper&quot;]/div[@class=&quot;orangehrm-login-slot&quot;]</value>
+      <webElementGuid>cc5f722d-04a2-4a60-a8ac-bf027e5e1dbd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/div/div[2]</value>
+      <webElementGuid>ded79925-8aa8-4e5e-adad-31a0d8da7199</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div[2]</value>
+      <webElementGuid>87efe4ca-6746-433b-a83f-31ce87cf9d20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'LoginInvalid credentialsUsername : AdminPassword : admin123UsernamePassword Login Forgot your password? OrangeHRM OS 5.7© 2005 - 2024 OrangeHRM, Inc. All rights reserved.' or . = 'LoginInvalid credentialsUsername : AdminPassword : admin123UsernamePassword Login Forgot your password? OrangeHRM OS 5.7© 2005 - 2024 OrangeHRM, Inc. All rights reserved.')]</value>
+      <webElementGuid>236c72aa-651c-4cc4-b9a4-d081a24e4a20</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

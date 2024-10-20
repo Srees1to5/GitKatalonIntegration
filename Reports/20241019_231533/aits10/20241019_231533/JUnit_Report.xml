@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="aits10" time="55.939" tests="1" failures="0" errors="0">
+   <testsuite name="aits10" tests="1" failures="0" errors="0" time="55.939" skipped="0" timestamp="19-10-2024T23:15:57" hostname="Anoop_G - Anoop-Lap" id="Test Suites/aits10">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Anoop_G\\git\\GitKatalonIntegration\\GitKatalonIntegration\\Reports\\20241019_231533\\aits10\\20241019_231533"/>
+         <property name="logFiles" value="C:\\Users\\Anoop_G\\git\\GitKatalonIntegration\\GitKatalonIntegration\\Reports\\20241019_231533\\aits10\\20241019_231533\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Anoop_G - Anoop-Lap"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 129.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="582f5b523937d5def28498cc7bca9345"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/ai10tstcs" time="54.102" classname="Test Cases/ai10tstcs" status="PASSED">
+         <system-out><![CDATA[19-10-2024T23:15:59 - [TEST_CASE][PASSED] - Test Cases/ai10tstcs: Test Cases/ai10tstcs
+
+19-10-2024T23:16:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-10-2024T23:16:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-10-2024T23:16:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-10-2024T23:16:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-10-2024T23:16:23 - [TEST_STEP][PASSED] - navigateToUrl("https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&ifkv=ARpgrqcKnzqZtk5pIjpOXG7fp32Wd5xnAUSNzNZ0dkvjFwct7zVLfrlgoE8h5v44aSM0atZphTPe&osid=1&passive=1209600&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1409785973%3A1729359233004977&ddm=0"): Navigate to 'https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&ifkv=ARpgrqcKnzqZtk5pIjpOXG7fp32Wd5xnAUSNzNZ0dkvjFwct7zVLfrlgoE8h5v44aSM0atZphTPe&osid=1&passive=1209600&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1409785973%3A1729359233004977&ddm=0' successfully
+
+19-10-2024T23:16:30 - [MESSAGE][PASSED] - Navigate to 'https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&ifkv=ARpgrqcKnzqZtk5pIjpOXG7fp32Wd5xnAUSNzNZ0dkvjFwct7zVLfrlgoE8h5v44aSM0atZphTPe&osid=1&passive=1209600&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1409785973%3A1729359233004977&ddm=0' successfully
+
+19-10-2024T23:16:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Gmail/button_Forgot email")): Object: 'Object Repository/Page_Gmail/button_Forgot email' is clicked on
+
+19-10-2024T23:16:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gmail/button_Forgot email' is clicked on
+
+19-10-2024T23:16:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Gmail/input_Enter your phone number or recovery e_b488e7"), "test@test.com"): Text 'test@test.com' is set on object 'Object Repository/Page_Gmail/input_Enter your phone number or recovery e_b488e7'
+
+19-10-2024T23:16:42 - [MESSAGE][PASSED] - Text 'test@test.com' is set on object 'Object Repository/Page_Gmail/input_Enter your phone number or recovery e_b488e7'
+
+19-10-2024T23:16:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Gmail/span_Next")): Object: 'Object Repository/Page_Gmail/span_Next' is clicked on
+
+19-10-2024T23:16:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gmail/span_Next' is clicked on
+
+19-10-2024T23:16:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Gmail/input_Enter the name on your Google Account_585949"), "tests"): Text 'tests' is set on object 'Object Repository/Page_Gmail/input_Enter the name on your Google Account_585949'
+
+19-10-2024T23:16:46 - [MESSAGE][PASSED] - Text 'tests' is set on object 'Object Repository/Page_Gmail/input_Enter the name on your Google Account_585949'
+
+19-10-2024T23:16:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Gmail/input_Enter the name on your Google Account_585949")): Object: 'Object Repository/Page_Gmail/input_Enter the name on your Google Account_585949' is clicked on
+
+19-10-2024T23:16:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gmail/input_Enter the name on your Google Account_585949' is clicked on
+
+19-10-2024T23:16:46 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/Page_Gmail/input_Enter the name on your Google Account_585949")): Object: 'Object Repository/Page_Gmail/input_Enter the name on your Google Account_585949' is double clicked on
+
+19-10-2024T23:16:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gmail/input_Enter the name on your Google Account_585949' is double clicked on
+
+19-10-2024T23:16:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Gmail/input_Enter the name on your Google Account_a2d055"), "s"): Text 's' is set on object 'Object Repository/Page_Gmail/input_Enter the name on your Google Account_a2d055'
+
+19-10-2024T23:16:48 - [MESSAGE][PASSED] - Text 's' is set on object 'Object Repository/Page_Gmail/input_Enter the name on your Google Account_a2d055'
+
+19-10-2024T23:16:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+19-10-2024T23:16:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[19-10-2024T23:15:57 - [TEST_SUITE][PASSED] - aits10: Test Cases/ai10tstcs]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
