@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+pingpong_suite,Chrome 130.0.0.0,,,21-10-2024 23:41:14,21-10-2024 23:43:20,2m - 5.542s,FAILED
+,,,,,,,
+Test Cases/pingpogtc,Chrome 130.0.0.0,,,21-10-2024 23:42:23,21-10-2024 23:43:20,56.260s,FAILED
+"openBrowser("""")",Chrome 130.0.0.0,,,21-10-2024 23:42:24,21-10-2024 23:42:31,7.002s,PASSED
+"navigateToUrl(""https://in.pingpongx.com/in/index"")",Chrome 130.0.0.0,,,21-10-2024 23:42:31,21-10-2024 23:42:48,17.615s,PASSED
+"click(findTestObject(""Object Repository/Page_Ping Pong - Payment Processing Service_49a3cf/span_Nurturing Business of Tomorrow""))",Chrome 130.0.0.0,,,21-10-2024 23:42:48,21-10-2024 23:43:20,31.570s,FAILED

@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+pagespeedsuite,Chrome 130.0.0.0,,,21-10-2024 20:32:25,21-10-2024 20:32:46,21.085s,PASSED
+,,,,,,,
+Test Cases/pagespeed.web.dev,Chrome 130.0.0.0,,,21-10-2024 20:32:25,21-10-2024 20:32:46,20.387s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,21-10-2024 20:32:26,21-10-2024 20:32:32,6.188s,PASSED
+"navigateToUrl(""https://developers.google.com/speed/docs/insights/v5/about"")",Chrome 130.0.0.0,,,21-10-2024 20:32:32,21-10-2024 20:32:37,4.439s,PASSED
+"click(findTestObject(""Object Repository/Page_About PageSpeed Insights  Google for D_534c49/a_Languages""))",Chrome 130.0.0.0,,,21-10-2024 20:32:37,21-10-2024 20:32:42,5.556s,PASSED
+"click(findTestObject(""Object Repository/Page_Supported Languages  PageSpeed Insight_e5c0ef/span_Get Started""))",Chrome 130.0.0.0,,,21-10-2024 20:32:42,21-10-2024 20:32:44,1.832s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get Started with the PageSpeed Insight_f1a8cf/h1_Get Started with the PageSpeed Insights API""), 0)",Chrome 130.0.0.0,,,21-10-2024 20:32:44,21-10-2024 20:32:46,1.581s,PASSED

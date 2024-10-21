@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+aits10,Chrome 130.0.0.0,,,21-10-2024 19:50:07,21-10-2024 19:50:36,29.610s,PASSED
+,,,,,,,
+Test Cases/ai10tstcs,Chrome 130.0.0.0,,,21-10-2024 19:50:08,21-10-2024 19:50:36,28.737s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,21-10-2024 19:50:09,21-10-2024 19:50:16,7.079s,PASSED
+"navigateToUrl(""https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&ifkv=ARpgrqcKnzqZtk5pIjpOXG7fp32Wd5xnAUSNzNZ0dkvjFwct7zVLfrlgoE8h5v44aSM0atZphTPe&osid=1&passive=1209600&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1409785973%3A1729359233004977&ddm=0"")",Chrome 130.0.0.0,,,21-10-2024 19:50:16,21-10-2024 19:50:20,3.703s,PASSED
+"click(findTestObject(""Object Repository/Page_Gmail/button_Forgot email""))",Chrome 130.0.0.0,,,21-10-2024 19:50:20,21-10-2024 19:50:24,4.850s,PASSED
+"setText(findTestObject(""Object Repository/Page_Gmail/input_Enter your phone number or recovery e_b488e7""), ""test@test.com"")",Chrome 130.0.0.0,,,21-10-2024 19:50:24,21-10-2024 19:50:26,1.281s,PASSED
+"click(findTestObject(""Object Repository/Page_Gmail/span_Next""))",Chrome 130.0.0.0,,,21-10-2024 19:50:26,21-10-2024 19:50:27,1.340s,PASSED
+"setText(findTestObject(""Object Repository/Page_Gmail/input_Enter the name on your Google Account_585949""), ""tests"")",Chrome 130.0.0.0,,,21-10-2024 19:50:27,21-10-2024 19:50:30,3.079s,PASSED
+"click(findTestObject(""Object Repository/Page_Gmail/input_Enter the name on your Google Account_585949""))",Chrome 130.0.0.0,,,21-10-2024 19:50:30,21-10-2024 19:50:31,0.959s,PASSED
+"doubleClick(findTestObject(""Object Repository/Page_Gmail/input_Enter the name on your Google Account_585949""))",Chrome 130.0.0.0,,,21-10-2024 19:50:31,21-10-2024 19:50:32,1.000s,PASSED
+"setText(findTestObject(""Object Repository/Page_Gmail/input_Enter the name on your Google Account_a2d055""), ""s"")",Chrome 130.0.0.0,,,21-10-2024 19:50:32,21-10-2024 19:50:34,1.729s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,21-10-2024 19:50:34,21-10-2024 19:50:36,2.501s,PASSED
