@@ -19,18 +19,62 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://demoqa.com/checkbox')
+WebUI.closeBrowser()
 
-WebUI.click(findTestObject('Object Repository/Page_DEMOQA/svg_Check Box_rct-icon rct-icon-uncheck'))
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Object Repository/Page_DEMOQA/path'))
+WebUI.navigateToUrl('https://sampleapp.tricentis.com/101/')
 
-WebUI.click(findTestObject('Object Repository/Page_DEMOQA/svg_Check Box_rct-icon rct-icon-uncheck'))
+WebUI.click(findTestObject('Object Repository/Page_ACME demo app/Page_Tricentis Vehicle Insurance/div_AutomobileTruckMotorcycleCamperRequest _a5db7c'))
 
-WebUI.click(findTestObject('Object Repository/Page_DEMOQA/path'))
+WebUI.doubleClick(findTestObject('Object Repository/Page_ACME demo app/Page_Enter Insurant Data/body_Vehicle Insurance ApplicationThis is a_dbb725'))
 
-WebUI.click(findTestObject('Object Repository/Page_DEMOQA/svg_Check Box_rct-icon rct-icon-uncheck'))
+WebUI.setText(findTestObject('Object Repository/Page_ACME demo app/Page_Enter Insurant Data/input_First Name_First Name'), 
+    'sssssssssssssssssss')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_DEMOQA/div_You have selected homedesktopnotescomma_735f00'), 
-    0)
+WebUI.setText(findTestObject('Object Repository/Page_ACME demo app/Page_Enter Insurant Data/input_Last Name_Last Name'), 
+    'assssssssss')
+
+WebUI.click(findTestObject('Object Repository/Page_ACME demo app/Page_Enter Insurant Data/button_Date of Birth_Open Date of Birth Calender'))
+
+WebUI.click(findTestObject('Object Repository/Page_ACME demo app/Page_Enter Insurant Data/span_Female_ideal-radio'))
+
+WebUI.click(findTestObject('Object Repository/Page_ACME demo app/Page_Enter Insurant Data/button_Date of Birth_Open Date of Birth Calender'))
+
+WebUI.click(findTestObject('Object Repository/Page_ACME demo app/Page_Enter Insurant Data/a_Prev'))
+
+WebUI.click(findTestObject('Object Repository/Page_ACME demo app/Page_Enter Insurant Data/a_11'))
+
+WebUI.setText(findTestObject('Object Repository/Page_ACME demo app/Page_Enter Insurant Data/input_Date of Birth_Date of Birth'), 
+    '09/11/2020')
+
+WebUI.click(findTestObject('Object Repository/Page_ACME demo app/Page_Enter Insurant Data/section_First Name                         _4f86d4'))
+
+WebUI.setText(findTestObject('Object Repository/Page_ACME demo app/Page_Enter Insurant Data/input_Street Address_Street Address'), 
+    'ssssssssssssssssssssssdds')
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_ACME demo app/Page_Enter Insurant Data/select_please select                       _d6c855'), 
+    'Australia', true)
+
+WebUI.setText(findTestObject('Object Repository/Page_ACME demo app/Page_Enter Insurant Data/input_Zip Code_Zip Code'), 'aa')
+
+WebUI.setText(findTestObject('Object Repository/Page_ACME demo app/Page_Enter Insurant Data/input_City_City'), '')
+
+WebUI.click(findTestObject('Object Repository/Page_ACME demo app/Page_Enter Insurant Data/input_City_City'))
+
+WebUI.click(findTestObject('Object Repository/Page_ACME demo app/Page_Enter Insurant Data/div_Zip Code                               _ce522f'))
+
+WebUI.setText(findTestObject('Object Repository/Page_ACME demo app/Page_Enter Insurant Data/input_Zip Code_Zip Code'), '99999')
+
+WebUI.setText(findTestObject('Object Repository/Page_ACME demo app/Page_Enter Insurant Data/input_City_City'), 'assssssssssssss')
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_ACME demo app/Page_Enter Insurant Data/select_please select                       _4c6253'), 
+    'Public Official', true)
+
+WebUI.click(findTestObject('Object Repository/Page_ACME demo app/Page_Enter Insurant Data/span_Speeding_ideal-check'))
+
+WebUI.click(findTestObject('Object Repository/Page_ACME demo app/Page_Enter Insurant Data/button_Next'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_ACME demo app/Page_Enter Product Data/select_please select                       _5bfca6'), 
+    'No Coverage', true)
 
