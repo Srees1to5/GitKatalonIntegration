@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_please select                       _4c6253</name>
+   <tag></tag>
+   <elementGuidId>7a3d74e3-f924-40ad-a50c-097ca87c7cc1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#occupation</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='occupation']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#occupation</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>91bdf78f-1eda-407f-a2ee-afec6ed9b8ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>occupation</value>
+      <webElementGuid>9edeac79-1ffc-41c5-b25e-ba895e491139</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>Occupation</value>
+      <webElementGuid>b9cd3a50-d144-4702-b689-bb564784f968</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                            – please select –
+                                            Employee
+                                            Public Official
+                                            Farmer
+                                            Unemployed
+                                            Selfemployed
+                                        </value>
+      <webElementGuid>1713d6cb-3aae-4bb8-babe-34cd7f970887</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;occupation&quot;)</value>
+      <webElementGuid>26769cd1-b106-4269-b8d7-a0c546cf53db</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='occupation']</value>
+      <webElementGuid>4ee66a8d-338d-4eab-b704-7c45fdb6806b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='insurance-form']/div/section[2]/div[9]/select</value>
+      <webElementGuid>c9a298fb-f3a9-4692-b700-463f24bf0310</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Occupation'])[1]/following::select[1]</value>
+      <webElementGuid>7962093d-48af-4cae-86ac-04932eb942f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='City'])[1]/following::select[1]</value>
+      <webElementGuid>9fbd90be-941f-46fa-98ab-e66cb58dac29</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select an option'])[5]/preceding::select[1]</value>
+      <webElementGuid>343d45f3-0a58-449a-8ec7-b4e5a03f3379</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hobbies'])[1]/preceding::select[1]</value>
+      <webElementGuid>577a7bff-4266-4e6a-9b15-7bdebf7523ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/select</value>
+      <webElementGuid>f7ff0eb4-e0e3-4ba2-b8ad-5626c0a6d37f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'occupation' and @name = 'Occupation' and (text() = '
+                                            – please select –
+                                            Employee
+                                            Public Official
+                                            Farmer
+                                            Unemployed
+                                            Selfemployed
+                                        ' or . = '
+                                            – please select –
+                                            Employee
+                                            Public Official
+                                            Farmer
+                                            Unemployed
+                                            Selfemployed
+                                        ')]</value>
+      <webElementGuid>20962af0-5063-4941-be5f-1ab3a857afda</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Date of Birth_fa fa-calendar-plus-o</name>
+   <tag></tag>
+   <elementGuidId>2d140bde-90da-4bd6-944c-b1139df73fae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#opendateofbirthcalender > i.fa.fa-calendar-plus-o</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='opendateofbirthcalender']/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>3e46eb89-de68-4279-94d0-0a906da762f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-calendar-plus-o</value>
+      <webElementGuid>8dbdaa81-ff87-439a-9569-43f0acc1184b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;opendateofbirthcalender&quot;)/i[@class=&quot;fa fa-calendar-plus-o&quot;]</value>
+      <webElementGuid>5badfd31-02e7-4a74-a3ee-d7ee4e98bdc4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='opendateofbirthcalender']/i</value>
+      <webElementGuid>9669596a-1e15-4388-b1a1-4064d138699f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button/i</value>
+      <webElementGuid>00986722-e64a-4ece-91be-371a914833c5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

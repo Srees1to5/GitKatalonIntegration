@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FacebookSuite,Chrome 130.0.0.0,,,22-10-2024 20:14:53,22-10-2024 20:16:00,1m - 6.781s,PASSED
+,,,,,,,
+Test Cases/FAcebook,Chrome 130.0.0.0,,,22-10-2024 20:14:54,22-10-2024 20:16:00,1m - 6.021s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,22-10-2024 20:14:55,22-10-2024 20:15:00,5.576s,PASSED
+"navigateToUrl(""https://www.facebook.com/"")",Chrome 130.0.0.0,,,22-10-2024 20:15:00,22-10-2024 20:15:03,2.122s,PASSED
+"setText(findTestObject(""Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60""), ""sree@fffssd.com"")",Chrome 130.0.0.0,,,22-10-2024 20:15:03,22-10-2024 20:15:04,1.611s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc""), ""28irGzZBQb0="")",Chrome 130.0.0.0,,,22-10-2024 20:15:04,22-10-2024 20:15:05,0.862s,PASSED
+"click(findTestObject(""Object Repository/Page_Facebook  log in or sign up/button_Log in""))",Chrome 130.0.0.0,,,22-10-2024 20:15:05,22-10-2024 20:15:37,32.263s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Log in to Facebook/div_The email address you entered isnt conn_71e5d3""), 0)",Chrome 130.0.0.0,,,22-10-2024 20:15:37,22-10-2024 20:16:00,22.842s,PASSED

@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+keywordSuite1,Chrome 130.0.0.0,,,22-10-2024 20:16:40,22-10-2024 20:17:09,29.290s,PASSED
+,,,,,,,
+Test Cases/Keywordcases/createPIM_orange,Chrome 130.0.0.0,,pim,22-10-2024 20:16:40,22-10-2024 20:17:09,28.577s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,22-10-2024 20:16:41,22-10-2024 20:16:48,6.401s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 130.0.0.0,,,22-10-2024 20:16:48,22-10-2024 20:16:55,7.049s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_username""), ""Admin"")",Chrome 130.0.0.0,,,22-10-2024 20:16:55,22-10-2024 20:16:57,2.734s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 130.0.0.0,,,22-10-2024 20:16:57,22-10-2024 20:16:58,0.642s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/button_Login""))",Chrome 130.0.0.0,,,22-10-2024 20:16:58,22-10-2024 20:17:00,1.886s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/a_PIM""))",Chrome 130.0.0.0,,,22-10-2024 20:17:00,22-10-2024 20:17:03,3.374s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/li_Add Employee""))",Chrome 130.0.0.0,,,22-10-2024 20:17:03,22-10-2024 20:17:05,1.671s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Employee Full Name_firstName""), ""sree"")",Chrome 130.0.0.0,,,22-10-2024 20:17:05,22-10-2024 20:17:07,1.877s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Employee Full Name_lastName""), ""s"")",Chrome 130.0.0.0,,,22-10-2024 20:17:07,22-10-2024 20:17:08,0.970s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/button_Save""))",Chrome 130.0.0.0,,,22-10-2024 20:17:08,22-10-2024 20:17:09,1.012s,PASSED
+com.test.pack1.customfunctionipm.createuser(),Chrome 130.0.0.0,,,22-10-2024 20:17:09,22-10-2024 20:17:09,0.091s,PASSED

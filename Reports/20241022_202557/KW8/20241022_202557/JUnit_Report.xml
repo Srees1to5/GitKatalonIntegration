@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="KW8" time="55.321" tests="1" failures="0" errors="0">
+   <testsuite name="KW8" tests="1" failures="0" errors="0" time="55.321" skipped="0" timestamp="22-10-2024T20:26:12" hostname="Anoop_G - 192.168.1.39" id="Test Suites/KW8">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Anoop_G\\git\\GitKatalonIntegration\\GitKatalonIntegration\\Reports\\20241022_202557\\KW8\\20241022_202557"/>
+         <property name="logFiles" value="C:\\Users\\Anoop_G\\git\\GitKatalonIntegration\\GitKatalonIntegration\\Reports\\20241022_202557\\KW8\\20241022_202557\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Anoop_G - 192.168.1.39"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 130.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.39"/>
+         <property name="sessionId" value="c04969c76c38772455028410ffb13c0e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/PBKW" time="54.451" classname="Test Cases/PBKW" status="PASSED">
+         <system-out><![CDATA[22-10-2024T20:26:13 - [TEST_CASE][PASSED] - Test Cases/PBKW: Test Cases/PBKW
+
+22-10-2024T20:26:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+22-10-2024T20:26:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+22-10-2024T20:26:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-10-2024T20:26:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+22-10-2024T20:26:21 - [TEST_STEP][PASSED] - navigateToUrl("https://parabank.parasoft.com/parabank/index.htm;jsessionid=433A0C0C0BB91807C12AA4A71899882A"): Navigate to 'https://parabank.parasoft.com/parabank/index.htm;jsessionid=433A0C0C0BB91807C12AA4A71899882A' successfully
+
+22-10-2024T20:26:24 - [MESSAGE][PASSED] - Navigate to 'https://parabank.parasoft.com/parabank/index.htm;jsessionid=433A0C0C0BB91807C12AA4A71899882A' successfully
+
+22-10-2024T20:26:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank  Welcome  Online Banking/a_Locations")): Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/a_Locations' is clicked on
+
+22-10-2024T20:26:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/a_Locations' is clicked on
+
+22-10-2024T20:26:32 - [TEST_STEP][PASSED] - com.test.pack1.customfunction8.printName("sreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"): com.test.pack1.customfunction8.printName is PASSED
+
+22-10-2024T20:26:33 - [MESSAGE][PASSED] - com.test.pack1.customfunction8.printName is PASSED
+
+22-10-2024T20:26:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Automated Software Testing Solutions F_4f6c59/span_Products")): Object: 'Object Repository/Page_Automated Software Testing Solutions F_4f6c59/span_Products' is clicked on
+
+22-10-2024T20:26:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automated Software Testing Solutions F_4f6c59/span_Products' is clicked on
+
+22-10-2024T20:26:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Automated Software Testing Solutions F_4f6c59/span_CCtest")): Object: 'Object Repository/Page_Automated Software Testing Solutions F_4f6c59/span_CCtest' is clicked on
+
+22-10-2024T20:26:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automated Software Testing Solutions F_4f6c59/span_CCtest' is clicked on
+
+22-10-2024T20:26:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_CCtest Check C and C Code Quality Tool_a48130/a_Try Parasoft"), 0): Object 'Object Repository/Page_CCtest Check C and C Code Quality Tool_a48130/a_Try Parasoft' is present
+
+22-10-2024T20:26:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-10-2024T20:26:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CCtest Check C and C Code Quality Tool_a48130/a_Try Parasoft' is present
+
+22-10-2024T20:26:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CCtest Check C and C Code Quality Tool_a48130/span_Solutions")): Object: 'Object Repository/Page_CCtest Check C and C Code Quality Tool_a48130/span_Solutions' is clicked on
+
+22-10-2024T20:26:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CCtest Check C and C Code Quality Tool_a48130/span_Solutions' is clicked on
+
+22-10-2024T20:26:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CCtest Check C and C Code Quality Tool_a48130/a_AUTOSAR C14")): Object: 'Object Repository/Page_CCtest Check C and C Code Quality Tool_a48130/a_AUTOSAR C14' is clicked on
+
+22-10-2024T20:26:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CCtest Check C and C Code Quality Tool_a48130/a_AUTOSAR C14' is clicked on
+
+22-10-2024T20:26:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_AUTOSAR C Rules and Coding Standards C_501c1a/a_Contact Us"), 0): Object 'Object Repository/Page_AUTOSAR C Rules and Coding Standards C_501c1a/a_Contact Us' is present
+
+22-10-2024T20:26:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-10-2024T20:26:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page_AUTOSAR C Rules and Coding Standards C_501c1a/a_Contact Us' is present
+
+22-10-2024T20:26:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_AUTOSAR C Rules and Coding Standards C_501c1a/span_Industries")): Object: 'Object Repository/Page_AUTOSAR C Rules and Coding Standards C_501c1a/span_Industries' is clicked on
+
+22-10-2024T20:26:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AUTOSAR C Rules and Coding Standards C_501c1a/span_Industries' is clicked on
+
+22-10-2024T20:26:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_AUTOSAR C Rules and Coding Standards C_501c1a/a_Automotive")): Object: 'Object Repository/Page_AUTOSAR C Rules and Coding Standards C_501c1a/a_Automotive' is clicked on
+
+22-10-2024T20:26:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AUTOSAR C Rules and Coding Standards C_501c1a/a_Automotive' is clicked on
+
+22-10-2024T20:26:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Automotive Embedded Software Testing S_981503/span_Customer Success")): Object: 'Object Repository/Page_Automotive Embedded Software Testing S_981503/span_Customer Success' is clicked on
+
+22-10-2024T20:26:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automotive Embedded Software Testing S_981503/span_Customer Success' is clicked on
+
+22-10-2024T20:26:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Automotive Embedded Software Testing S_981503/a_Customer Portal")): Object: 'Object Repository/Page_Automotive Embedded Software Testing S_981503/a_Customer Portal' is clicked on
+
+22-10-2024T20:26:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automotive Embedded Software Testing S_981503/a_Customer Portal' is clicked on
+
+22-10-2024T20:26:59 - [TEST_STEP][PASSED] - switchToWindowTitle("Customer Portal Home"): Switched to window with title: 'Customer Portal Home'
+
+22-10-2024T20:27:06 - [MESSAGE][PASSED] - Switched to window with title: 'Customer Portal Home'
+
+22-10-2024T20:27:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Customer Portal Home/a_Announcements"), 0): Object 'Object Repository/Page_Customer Portal Home/a_Announcements' is present
+
+22-10-2024T20:27:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-10-2024T20:27:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Customer Portal Home/a_Announcements' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[22-10-2024T20:26:12 - [TEST_SUITE][PASSED] - KW8: Test Cases/PBKW]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

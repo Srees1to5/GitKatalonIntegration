@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_The Leaders Program</name>
+   <tag></tag>
+   <elementGuidId>23f432e1-2ee4-4141-a177-4b5f16f684e0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/div/div/div/ul/li[4]/div/div/ul/li[2]/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;The Leaders Program&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>68d5aa12-1f80-45af-b17f-a41b0c4d0f62</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>The Leaders Program</value>
+      <webElementGuid>5aead842-4476-4750-bab1-2ba675875168</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;application--wrap&quot;]/div[1]/div[@class=&quot;nurturing-wrap&quot;]/div[@class=&quot;navWrap&quot;]/div[@class=&quot;header&quot;]/div[@class=&quot;menus&quot;]/ul[1]/li[@class=&quot;solutions-li&quot;]/div[@class=&quot;menu-box&quot;]/div[@class=&quot;-layout-wrap&quot;]/ul[@class=&quot;meun-ul&quot;]/li[2]/a[1]/span[1]</value>
+      <webElementGuid>a062c046-0dea-4540-88f2-234fad326338</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/div/div/div/ul/li[4]/div/div/ul/li[2]/a/span</value>
+      <webElementGuid>d76b6b76-8e07-4f75-b667-f79947135c25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nurturing Business of Tomorrow'])[1]/following::span[1]</value>
+      <webElementGuid>616de087-a866-4d7f-8d05-4831fac4fae0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PingPong Ecosystem'])[1]/following::span[2]</value>
+      <webElementGuid>0738c41e-22e5-4ef3-ba85-d6bf89b12ede</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Business Success Stories'])[1]/preceding::span[1]</value>
+      <webElementGuid>51b469d3-f9e7-4ac9-a1cd-4def00d4c0a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Blog'])[1]/preceding::span[2]</value>
+      <webElementGuid>591d90a4-261e-4121-aedd-9afef4f9aaff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='The Leaders Program']/parent::*</value>
+      <webElementGuid>4fd116ee-3520-458e-bd18-4a5fa6dd1e2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/div/div/ul/li[2]/a/span</value>
+      <webElementGuid>3e96447a-0678-48c1-8f3d-911e277b5904</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'The Leaders Program' or . = 'The Leaders Program')]</value>
+      <webElementGuid>60ed8e83-4a4c-460e-8788-4745c4501c0a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

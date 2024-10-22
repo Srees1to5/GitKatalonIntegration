@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FacebookSuite" time="66.781" tests="1" failures="0" errors="0">
+   <testsuite name="FacebookSuite" tests="1" failures="0" errors="0" time="66.781" skipped="0" timestamp="22-10-2024T20:14:53" hostname="Anoop_G - 192.168.1.39" id="Test Suites/FacebookSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Anoop_G\\git\\GitKatalonIntegration\\GitKatalonIntegration\\Reports\\20241022_201440\\FacebookSuite\\20241022_201440"/>
+         <property name="logFiles" value="C:\\Users\\Anoop_G\\git\\GitKatalonIntegration\\GitKatalonIntegration\\Reports\\20241022_201440\\FacebookSuite\\20241022_201440\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Anoop_G - 192.168.1.39"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 130.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.39"/>
+         <property name="sessionId" value="84b713f7f53b2c35bb96f37b813c9625"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/FAcebook" time="66.021" classname="Test Cases/FAcebook" status="PASSED">
+         <system-out><![CDATA[22-10-2024T20:14:54 - [TEST_CASE][PASSED] - Test Cases/FAcebook: Test Cases/FAcebook
+
+22-10-2024T20:14:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+22-10-2024T20:14:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+22-10-2024T20:14:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-10-2024T20:15:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+22-10-2024T20:15:00 - [TEST_STEP][PASSED] - navigateToUrl("https://www.facebook.com/"): Navigate to 'https://www.facebook.com/' successfully
+
+22-10-2024T20:15:03 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/' successfully
+
+22-10-2024T20:15:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60"), "sree@fffssd.com"): Text 'sree@fffssd.com' is set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60'
+
+22-10-2024T20:15:04 - [MESSAGE][PASSED] - Text 'sree@fffssd.com' is set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60'
+
+22-10-2024T20:15:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc"), "28irGzZBQb0="): Text ****** has been set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc'
+
+22-10-2024T20:15:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc'
+
+22-10-2024T20:15:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Facebook  log in or sign up/button_Log in")): Object: 'Object Repository/Page_Facebook  log in or sign up/button_Log in' is clicked on
+
+22-10-2024T20:15:37 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='u_0_5_iQ']'. Please recheck the objects properties to make sure the desired element is located. 
+
+22-10-2024T20:15:37 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Facebook  log in or sign up/button_Log in'. Try using Self-healing.
+
+22-10-2024T20:15:37 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Facebook  log in or sign up/button_Log in' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Facebook helps you connect and share with the people in your life.'])[1]/following::button[1]'.
+
+22-10-2024T20:15:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Facebook  log in or sign up/button_Log in' is clicked on
+
+22-10-2024T20:15:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Log in to Facebook/div_The email address you entered isnt conn_71e5d3"), 0): Object 'Object Repository/Page_Log in to Facebook/div_The email address you entered isnt conn_71e5d3' is present
+
+22-10-2024T20:15:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-10-2024T20:16:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Log in to Facebook/div_The email address you entered isnt conn_71e5d3' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[22-10-2024T20:14:53 - [TEST_SUITE][PASSED] - FacebookSuite: Test Cases/FAcebook]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
