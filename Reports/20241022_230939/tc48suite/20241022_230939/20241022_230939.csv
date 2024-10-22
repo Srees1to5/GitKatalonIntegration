@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+tc48suite,Chrome 130.0.0.0,,,22-10-2024 23:09:53,22-10-2024 23:10:09,16.789s,PASSED
+,,,,,,,
+Test Cases/tc47,Chrome 130.0.0.0,,,22-10-2024 23:09:53,22-10-2024 23:10:09,16.149s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,22-10-2024 23:09:54,22-10-2024 23:10:00,6.044s,PASSED
+"navigateToUrl(""https://automationbookstore.dev/"")",Chrome 130.0.0.0,,,22-10-2024 23:10:00,22-10-2024 23:10:06,5.596s,PASSED
+"click(findTestObject(""Object Repository/Page_Automation Bookstore/body_Automation BookstoreClear textAB Testi_7150f6""))",Chrome 130.0.0.0,,,22-10-2024 23:10:06,22-10-2024 23:10:08,2.265s,PASSED
+"setText(findTestObject(""Object Repository/Page_Automation Bookstore/input_Automation Bookstore_searchBar""), ""agile te"")",Chrome 130.0.0.0,,,22-10-2024 23:10:08,22-10-2024 23:10:09,1.069s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Automation Bookstore/h2_Agile Testing""), 0)",Chrome 130.0.0.0,,,22-10-2024 23:10:09,22-10-2024 23:10:09,0.462s,PASSED

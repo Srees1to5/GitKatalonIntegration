@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+tc50suite,Chrome 130.0.0.0,,,22-10-2024 22:42:53,22-10-2024 22:45:15,2m - 21.771s,FAILED
+,,,,,,,
+Test Cases/TC50,Chrome 130.0.0.0,,,22-10-2024 22:44:44,22-10-2024 22:45:15,30.643s,FAILED
+"openBrowser("""")",Chrome 130.0.0.0,,,22-10-2024 22:44:45,22-10-2024 22:44:51,6.374s,PASSED
+"navigateToUrl(""https://practice.expandtesting.com/xpath-css-tester"")",Chrome 130.0.0.0,,,22-10-2024 22:44:51,22-10-2024 22:44:53,2.294s,PASSED
+"click(findTestObject(""Object Repository/Page_Xpath and Css Selector Tester Tool for_de1387/html_window.top.postMessage(msg_typeresize-_a7bd98""))",Chrome 130.0.0.0,,,22-10-2024 22:44:53,22-10-2024 22:45:15,21.829s,FAILED

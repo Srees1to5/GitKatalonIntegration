@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+tc49suite,Chrome 130.0.0.0,,,22-10-2024 23:01:55,22-10-2024 23:03:09,1m - 14.316s,PASSED
+,,,,,,,
+Test Cases/TC49,Chrome 130.0.0.0,,,22-10-2024 23:02:50,22-10-2024 23:03:09,19.041s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,22-10-2024 23:02:50,22-10-2024 23:02:55,4.206s,PASSED
+"navigateToUrl(""https://webdriveruniversity.com/index.html"")",Chrome 130.0.0.0,,,22-10-2024 23:02:55,22-10-2024 23:02:58,2.854s,PASSED
+"click(findTestObject(""Object Repository/Page_WebDriverUniversity.com/a_API Testing in detail using Postman - Tes_e954f1""))",Chrome 130.0.0.0,,,22-10-2024 23:02:58,22-10-2024 23:03:03,5.645s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_API Testing in detail using Postman - _9221e6/h1_API Testing in detail using Postman - Te_3ef861""), 0)",Chrome 130.0.0.0,,,22-10-2024 23:03:03,22-10-2024 23:03:04,0.490s,PASSED
+"click(findTestObject(""Object Repository/Page_API Testing in detail using Postman - _9221e6/a_Postman""))",Chrome 130.0.0.0,,,22-10-2024 23:03:04,22-10-2024 23:03:05,1.283s,PASSED
+"rightClick(findTestObject(""Object Repository/Page_Just a moment/h1_www.udemy.com""))",Chrome 130.0.0.0,,,22-10-2024 23:03:05,22-10-2024 23:03:07,1.682s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Just a moment/h1_www.udemy.com_1""), 0)",Chrome 130.0.0.0,,,22-10-2024 23:03:07,22-10-2024 23:03:09,2.820s,PASSED

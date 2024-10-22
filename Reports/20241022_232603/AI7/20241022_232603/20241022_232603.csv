@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AI7,Chrome 130.0.0.0,,,22-10-2024 23:26:19,22-10-2024 23:27:06,47.540s,FAILED
+,,,,,,,
+Test Cases/AI7,Chrome 130.0.0.0,,,22-10-2024 23:26:33,22-10-2024 23:27:06,33.255s,FAILED
+"openBrowser("""")",Chrome 130.0.0.0,,,22-10-2024 23:26:33,22-10-2024 23:26:57,24.340s,PASSED
+"navigateToUrl(""https://www.google.com"")",Chrome 130.0.0.0,,,22-10-2024 23:26:57,22-10-2024 23:27:06,8.529s,PASSED
+"setText(findTestObject(""Page_Google/input_Google Search""), ""good thoughts +enter"")",Chrome 130.0.0.0,,,22-10-2024 23:27:06,22-10-2024 23:27:06,0.026s,FAILED
