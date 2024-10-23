@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Suite_OrangeDemoBlaze" time="49.105" tests="2" failures="0" errors="0">
+   <testsuite name="Suite_OrangeDemoBlaze" tests="2" failures="0" errors="0" time="49.105" skipped="0" timestamp="23-10-2024T23:32:35" hostname="Anoop_G - 192.168.1.39" id="Test Suites/Suite_OrangeDemoBlaze">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Anoop_G\\git\\GitKatalonIntegration\\GitKatalonIntegration\\Reports\\20241023_233219\\Suite_OrangeDemoBlaze\\20241023_233219"/>
+         <property name="logFiles" value="C:\\Users\\Anoop_G\\git\\GitKatalonIntegration\\GitKatalonIntegration\\Reports\\20241023_233219\\Suite_OrangeDemoBlaze\\20241023_233219\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Anoop_G - 192.168.1.39"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 130.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.39"/>
+         <property name="sessionId" value="9ef3048fd23c142f978a4b50daf328ec"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/DemoBlazeTagsAdded" time="28.532" classname="Test Cases/DemoBlazeTagsAdded" status="PASSED">
+         <system-out><![CDATA[23-10-2024T23:32:38 - [TEST_CASE][PASSED] - Test Cases/DemoBlazeTagsAdded: Test Cases/DemoBlazeTagsAdded
+
+23-10-2024T23:32:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-10-2024T23:32:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-10-2024T23:32:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-10-2024T23:32:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-10-2024T23:32:48 - [TEST_STEP][PASSED] - navigateToUrl("https://www.demoblaze.com/"): Navigate to 'https://www.demoblaze.com/' successfully
+
+23-10-2024T23:32:53 - [MESSAGE][PASSED] - Navigate to 'https://www.demoblaze.com/' successfully
+
+23-10-2024T23:32:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_STORE/a_Monitors")): Object: 'Object Repository/Page_STORE/a_Monitors' is clicked on
+
+23-10-2024T23:32:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/a_Monitors' is clicked on
+
+23-10-2024T23:32:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_STORE/a_ASUS Full HD")): Object: 'Object Repository/Page_STORE/a_ASUS Full HD' is clicked on
+
+23-10-2024T23:32:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/a_ASUS Full HD' is clicked on
+
+23-10-2024T23:33:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_STORE/h2_ASUS Full HD"), 0): Object 'Object Repository/Page_STORE/h2_ASUS Full HD' is present
+
+23-10-2024T23:33:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+23-10-2024T23:33:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_STORE/h2_ASUS Full HD' is present
+
+23-10-2024T23:33:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_STORE/a_Add to cart")): Object: 'Object Repository/Page_STORE/a_Add to cart' is clicked on
+
+23-10-2024T23:33:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/a_Add to cart' is clicked on
+
+23-10-2024T23:33:03 - [TEST_STEP][PASSED] - cart = findTestObject("Object Repository/Page_STORE/a_Add to cart"): null
+
+23-10-2024T23:33:03 - [TEST_STEP][PASSED] - verifyElementPresent(cart, 3): Object 'Object Repository/Page_STORE/a_Add to cart' is present
+
+23-10-2024T23:33:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_STORE/a_Add to cart' is present
+
+23-10-2024T23:33:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+23-10-2024T23:33:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/dempapplotz" time="17.722" classname="Test Cases/dempapplotz" status="PASSED">
+         <system-out><![CDATA[23-10-2024T23:33:06 - [TEST_CASE][PASSED] - Test Cases/dempapplotz: Test Cases/dempapplotz
+
+23-10-2024T23:33:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-10-2024T23:33:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-10-2024T23:33:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-10-2024T23:33:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-10-2024T23:33:15 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.applitools.com/"): Navigate to 'https://demo.applitools.com/' successfully
+
+23-10-2024T23:33:16 - [MESSAGE][PASSED] - Navigate to 'https://demo.applitools.com/' successfully
+
+23-10-2024T23:33:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ACME Demo App by Applitools/input_Username_username"), "test"): Text 'test' is set on object 'Object Repository/Page_ACME Demo App by Applitools/input_Username_username'
+
+23-10-2024T23:33:18 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_ACME Demo App by Applitools/input_Username_username'
+
+23-10-2024T23:33:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_ACME Demo App by Applitools/input_Password_password"), "P9ET2sDE0SE="): Text ****** has been set on object 'Object Repository/Page_ACME Demo App by Applitools/input_Password_password'
+
+23-10-2024T23:33:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_ACME Demo App by Applitools/input_Password_password'
+
+23-10-2024T23:33:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ACME Demo App by Applitools/input_Remember Me_form-check-input")): Object: 'Object Repository/Page_ACME Demo App by Applitools/input_Remember Me_form-check-input' is clicked on
+
+23-10-2024T23:33:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ACME Demo App by Applitools/input_Remember Me_form-check-input' is clicked on
+
+23-10-2024T23:33:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ACME Demo App by Applitools/a_Sign in")): Object: 'Object Repository/Page_ACME Demo App by Applitools/a_Sign in' is clicked on
+
+23-10-2024T23:33:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ACME Demo App by Applitools/a_Sign in' is clicked on
+
+23-10-2024T23:33:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_ACME demo app/h6_Your nearest branch closes in 30m 5s"), 0): Object 'Object Repository/Page_ACME demo app/h6_Your nearest branch closes in 30m 5s' is present
+
+23-10-2024T23:33:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+23-10-2024T23:33:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ACME demo app/h6_Your nearest branch closes in 30m 5s' is present
+
+23-10-2024T23:33:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ACME demo app/a_Restaurant  Cafe")): Object: 'Object Repository/Page_ACME demo app/a_Restaurant  Cafe' is clicked on
+
+23-10-2024T23:33:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ACME demo app/a_Restaurant  Cafe' is clicked on
+
+23-10-2024T23:33:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_ACME demo app/span_Starbucks coffee"), 0): Object 'Object Repository/Page_ACME demo app/span_Starbucks coffee' is present
+
+23-10-2024T23:33:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+23-10-2024T23:33:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ACME demo app/span_Starbucks coffee' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[23-10-2024T23:32:35 - [TEST_SUITE][PASSED] - Suite_OrangeDemoBlaze: Test Cases/dempapplotz]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

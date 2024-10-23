@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="pagespeedsuite" time="24.039" tests="1" failures="0" errors="0">
+   <testsuite name="pagespeedsuite" tests="1" failures="0" errors="0" time="24.039" skipped="0" timestamp="23-10-2024T22:42:18" hostname="Anoop_G - 192.168.1.39" id="Test Suites/pagespeedsuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Anoop_G\\git\\GitKatalonIntegration\\GitKatalonIntegration\\Reports\\20241023_224201\\pagespeedsuite\\20241023_224201"/>
+         <property name="logFiles" value="C:\\Users\\Anoop_G\\git\\GitKatalonIntegration\\GitKatalonIntegration\\Reports\\20241023_224201\\pagespeedsuite\\20241023_224201\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Anoop_G - 192.168.1.39"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 130.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.39"/>
+         <property name="sessionId" value="95cf54056ec322b43793cdc03a922ecc"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/pagespeed.web.dev" time="22.818" classname="Test Cases/pagespeed.web.dev" status="PASSED">
+         <system-out><![CDATA[23-10-2024T22:42:19 - [TEST_CASE][PASSED] - Test Cases/pagespeed.web.dev: Test Cases/pagespeed.web.dev
+
+23-10-2024T22:42:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-10-2024T22:42:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-10-2024T22:42:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-10-2024T22:42:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-10-2024T22:42:27 - [TEST_STEP][PASSED] - navigateToUrl("https://developers.google.com/speed/docs/insights/v5/about"): Navigate to 'https://developers.google.com/speed/docs/insights/v5/about' successfully
+
+23-10-2024T22:42:32 - [MESSAGE][PASSED] - Navigate to 'https://developers.google.com/speed/docs/insights/v5/about' successfully
+
+23-10-2024T22:42:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_About PageSpeed Insights  Google for D_534c49/a_Languages")): Object: 'Object Repository/Page_About PageSpeed Insights  Google for D_534c49/a_Languages' is clicked on
+
+23-10-2024T22:42:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_About PageSpeed Insights  Google for D_534c49/a_Languages' is clicked on
+
+23-10-2024T22:42:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Supported Languages  PageSpeed Insight_e5c0ef/span_Get Started")): Object: 'Object Repository/Page_Supported Languages  PageSpeed Insight_e5c0ef/span_Get Started' is clicked on
+
+23-10-2024T22:42:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Supported Languages  PageSpeed Insight_e5c0ef/span_Get Started' is clicked on
+
+23-10-2024T22:42:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get Started with the PageSpeed Insight_f1a8cf/h1_Get Started with the PageSpeed Insights API"), 0): Object 'Object Repository/Page_Get Started with the PageSpeed Insight_f1a8cf/h1_Get Started with the PageSpeed Insights API' is present
+
+23-10-2024T22:42:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+23-10-2024T22:42:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get Started with the PageSpeed Insight_f1a8cf/h1_Get Started with the PageSpeed Insights API' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[23-10-2024T22:42:18 - [TEST_SUITE][PASSED] - pagespeedsuite: Test Cases/pagespeed.web.dev]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

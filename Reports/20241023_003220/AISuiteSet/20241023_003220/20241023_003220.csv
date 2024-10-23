@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AISuiteSet,Chrome 130.0.0.0,,,23-10-2024 00:32:42,23-10-2024 00:33:21,39.535s,PASSED
+,,,,,,,
+Test Cases/AI5,Chrome 130.0.0.0,,,23-10-2024 00:32:43,23-10-2024 00:33:00,17.098s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,23-10-2024 00:32:45,23-10-2024 00:32:52,7.785s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 130.0.0.0,,,23-10-2024 00:32:52,23-10-2024 00:32:56,3.759s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Chrome 130.0.0.0,,,23-10-2024 00:32:56,23-10-2024 00:32:58,2.189s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Home""))",Chrome 130.0.0.0,,,23-10-2024 00:32:58,23-10-2024 00:33:00,1.274s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service""), 0)",Chrome 130.0.0.0,,,23-10-2024 00:33:00,23-10-2024 00:33:00,0.624s,PASSED
+,,,,,,,
+Test Cases/AI6,Chrome 130.0.0.0,,,23-10-2024 00:33:00,23-10-2024 00:33:21,20.861s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,23-10-2024 00:33:01,23-10-2024 00:33:08,6.714s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 130.0.0.0,,,23-10-2024 00:33:08,23-10-2024 00:33:12,4.564s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Chrome 130.0.0.0,,,23-10-2024 00:33:12,23-10-2024 00:33:13,0.716s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Home""))",Chrome 130.0.0.0,,,23-10-2024 00:33:13,23-10-2024 00:33:14,1.138s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service""), 0)",Chrome 130.0.0.0,,,23-10-2024 00:33:14,23-10-2024 00:33:15,0.595s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 130.0.0.0,,,23-10-2024 00:33:15,23-10-2024 00:33:16,1.340s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Chrome 130.0.0.0,,,23-10-2024 00:33:16,23-10-2024 00:33:17,0.647s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Home""))",Chrome 130.0.0.0,,,23-10-2024 00:33:17,23-10-2024 00:33:18,0.960s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 130.0.0.0,,,23-10-2024 00:33:18,23-10-2024 00:33:19,1.064s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""twstsd"")",Chrome 130.0.0.0,,,23-10-2024 00:33:19,23-10-2024 00:33:20,1.860s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""))",Chrome 130.0.0.0,,,23-10-2024 00:33:20,23-10-2024 00:33:21,0.675s,PASSED

@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VariableSuite" time="328.961" tests="4" failures="1" errors="0">
+   <testsuite name="SauceTestSuite" tests="2" failures="0" errors="0" time="61.867" skipped="0" timestamp="23-10-2024T23:02:27" hostname="Anoop_G - 192.168.1.39" id="Test Suites/SauceLab/SauceTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Anoop_G\\git\\GitKatalonIntegration\\GitKatalonIntegration\\Reports\\20241023_230150\\SauceLab\\SauceTestSuite\\20241023_230152"/>
+         <property name="logFiles" value="C:\\Users\\Anoop_G\\git\\GitKatalonIntegration\\GitKatalonIntegration\\Reports\\20241023_230150\\SauceLab\\SauceTestSuite\\20241023_230152\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Anoop_G - 192.168.1.39"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 130.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.39"/>
+         <property name="sessionId" value="537e375ee29c2bc5b6ad6157d5e13cc6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/SauceLab/TC2_SauceLab_Variable - DD" time="27.084" classname="Test Cases/SauceLab/TC2_SauceLab_Variable - DD" status="PASSED">
+         <system-out><![CDATA[23-10-2024T23:02:29 - [TEST_CASE][PASSED] - Test Cases/SauceLab/TC2_SauceLab_Variable - DD: Test Cases/SauceLab/TC2_SauceLab_Variable - DD
+
+23-10-2024T23:02:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-10-2024T23:02:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-10-2024T23:02:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-10-2024T23:02:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-10-2024T23:02:47 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+23-10-2024T23:02:47 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+23-10-2024T23:02:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), username): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+23-10-2024T23:02:52 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+23-10-2024T23:02:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), password): Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+23-10-2024T23:02:53 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+23-10-2024T23:02:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+23-10-2024T23:02:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+23-10-2024T23:02:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Swag Labs/div_Sauce Labs Backpack"), "Sauce Labs Backpack"): Actual text and expected text of test object 'Object Repository/Page_Swag Labs/div_Sauce Labs Backpack' are matched.
+
+23-10-2024T23:02:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Swag Labs/div_Sauce Labs Backpack' are matched.
+
+23-10-2024T23:02:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_Add to cart")): Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+23-10-2024T23:02:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+23-10-2024T23:02:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/a_1")): Object: 'Object Repository/Page_Swag Labs/a_1' is clicked on
+
+23-10-2024T23:02:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/a_1' is clicked on
+
+23-10-2024T23:02:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Swag Labs/div_Sauce Labs Backpack"), 0): Object 'Object Repository/Page_Swag Labs/div_Sauce Labs Backpack' is present
+
+23-10-2024T23:02:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+23-10-2024T23:02:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/div_Sauce Labs Backpack' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SauceLab/TC2_SauceLab_Variable - DD" time="32.152" classname="Test Cases/SauceLab/TC2_SauceLab_Variable - DD" status="PASSED">
+         <system-out><![CDATA[23-10-2024T23:02:56 - [TEST_CASE][PASSED] - Test Cases/SauceLab/TC2_SauceLab_Variable - DD: Test Cases/SauceLab/TC2_SauceLab_Variable - DD
+
+23-10-2024T23:02:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-10-2024T23:02:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+23-10-2024T23:03:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-10-2024T23:03:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-10-2024T23:03:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-10-2024T23:03:12 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+23-10-2024T23:03:15 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+23-10-2024T23:03:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), username): Text 'performance_glitch_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+23-10-2024T23:03:18 - [MESSAGE][PASSED] - Text 'performance_glitch_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+23-10-2024T23:03:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), password): Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+23-10-2024T23:03:19 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+23-10-2024T23:03:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+23-10-2024T23:03:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+23-10-2024T23:03:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Swag Labs/div_Sauce Labs Backpack"), "Sauce Labs Backpack"): Actual text and expected text of test object 'Object Repository/Page_Swag Labs/div_Sauce Labs Backpack' are matched.
+
+23-10-2024T23:03:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Swag Labs/div_Sauce Labs Backpack' are matched.
+
+23-10-2024T23:03:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_Add to cart")): Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+23-10-2024T23:03:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+23-10-2024T23:03:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/a_1")): Object: 'Object Repository/Page_Swag Labs/a_1' is clicked on
+
+23-10-2024T23:03:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/a_1' is clicked on
+
+23-10-2024T23:03:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Swag Labs/div_Sauce Labs Backpack"), 0): Object 'Object Repository/Page_Swag Labs/div_Sauce Labs Backpack' is present
+
+23-10-2024T23:03:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+23-10-2024T23:03:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/div_Sauce Labs Backpack' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[23-10-2024T23:02:27 - [TEST_SUITE][PASSED] - SauceTestSuite: Test Cases/SauceLab/TC2_SauceLab_Variable - DD]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TCSuite1" tests="2" failures="1" errors="0" time="203.167" skipped="0" timestamp="23-10-2024T23:04:00" hostname="Anoop_G - 192.168.1.39" id="Test Suites/SauceLab/TCSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Anoop_G\\git\\GitKatalonIntegration\\GitKatalonIntegration\\Reports\\20241023_230150\\SauceLab\\TCSuite1\\20241023_230155"/>
+         <property name="logFiles" value="C:\\Users\\Anoop_G\\git\\GitKatalonIntegration\\GitKatalonIntegration\\Reports\\20241023_230150\\SauceLab\\TCSuite1\\20241023_230155\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Anoop_G - 192.168.1.39"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 130.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.39"/>
+         <property name="sessionId" value="094e81c32db5ed8ea099ef982612d4a9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/DemoBlazeTagsAdded" time="72.211" classname="Test Cases/DemoBlazeTagsAdded" status="PASSED">
+         <system-out><![CDATA[23-10-2024T23:04:01 - [TEST_CASE][PASSED] - Test Cases/DemoBlazeTagsAdded: Test Cases/DemoBlazeTagsAdded
+
+23-10-2024T23:04:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-10-2024T23:04:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-10-2024T23:04:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-10-2024T23:04:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-10-2024T23:04:08 - [TEST_STEP][PASSED] - navigateToUrl("https://www.demoblaze.com/"): Navigate to 'https://www.demoblaze.com/' successfully
+
+23-10-2024T23:04:10 - [MESSAGE][PASSED] - Navigate to 'https://www.demoblaze.com/' successfully
+
+23-10-2024T23:04:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_STORE/a_Monitors")): Object: 'Object Repository/Page_STORE/a_Monitors' is clicked on
+
+23-10-2024T23:04:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/a_Monitors' is clicked on
+
+23-10-2024T23:04:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_STORE/a_ASUS Full HD")): Object: 'Object Repository/Page_STORE/a_ASUS Full HD' is clicked on
+
+23-10-2024T23:04:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/a_ASUS Full HD' is clicked on
+
+23-10-2024T23:04:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_STORE/h2_ASUS Full HD"), 0): Object 'Object Repository/Page_STORE/h2_ASUS Full HD' is present
+
+23-10-2024T23:04:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+23-10-2024T23:04:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_STORE/h2_ASUS Full HD' is present
+
+23-10-2024T23:04:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_STORE/a_Add to cart")): Object: 'Object Repository/Page_STORE/a_Add to cart' is clicked on
+
+23-10-2024T23:04:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/a_Add to cart' is clicked on
+
+23-10-2024T23:04:35 - [TEST_STEP][PASSED] - cart = findTestObject("Object Repository/Page_STORE/a_Add to cart"): null
+
+23-10-2024T23:04:35 - [TEST_STEP][PASSED] - verifyElementPresent(cart, 3): Object 'Object Repository/Page_STORE/a_Add to cart' is present
+
+23-10-2024T23:05:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_STORE/a_Add to cart' is present
+
+23-10-2024T23:05:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+23-10-2024T23:05:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ParaBank" time="57.858" classname="Test Cases/ParaBank" status="FAILED">
+         <failure type="FAILED" message="Test Cases/ParaBank FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_ParaBank  Error/p_The username and password could not be verified' is visible&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:415)&#xa;	at ParaBank.run(ParaBank:75)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1729704715294.run(TempTestSuite1729704715294.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Page_ParaBank  Error/p_The username and password could not be verified' is NOT visible&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 21 more&#xa;"/>
+         <system-out><![CDATA[23-10-2024T23:06:25 - [TEST_CASE][FAILED] - Test Cases/ParaBank: Test Cases/ParaBank FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_ParaBank  Error/p_The username and password could not be verified' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:415)
+	at ParaBank.run(ParaBank:75)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1729704715294.run(TempTestSuite1729704715294.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Page_ParaBank  Error/p_The username and password could not be verified' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 21 more
+
+
+23-10-2024T23:06:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-10-2024T23:06:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+23-10-2024T23:06:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-10-2024T23:06:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-10-2024T23:06:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-10-2024T23:06:30 - [TEST_STEP][PASSED] - navigateToUrl("https://parabank.parasoft.com/parabank/index.htm;jsessionid=433A0C0C0BB91807C12AA4A71899882A"): Navigate to 'https://parabank.parasoft.com/parabank/index.htm;jsessionid=433A0C0C0BB91807C12AA4A71899882A' successfully
+
+23-10-2024T23:06:33 - [MESSAGE][PASSED] - Navigate to 'https://parabank.parasoft.com/parabank/index.htm;jsessionid=433A0C0C0BB91807C12AA4A71899882A' successfully
+
+23-10-2024T23:06:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank  Welcome  Online Banking/a_Register")): Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/a_Register' is clicked on
+
+23-10-2024T23:06:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/a_Register' is clicked on
+
+23-10-2024T23:06:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_First Name_customer.firstName"), fname): Text 'test' is set on object 'Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_First Name_customer.firstName'
+
+23-10-2024T23:06:35 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_First Name_customer.firstName'
+
+23-10-2024T23:06:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Last Name_customer.lastName"), lname): Text 'last' is set on object 'Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Last Name_customer.lastName'
+
+23-10-2024T23:06:36 - [MESSAGE][PASSED] - Text 'last' is set on object 'Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Last Name_customer.lastName'
+
+23-10-2024T23:06:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Address_customer.address.street"), "t"): Text 't' is set on object 'Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Address_customer.address.street'
+
+23-10-2024T23:06:37 - [MESSAGE][PASSED] - Text 't' is set on object 'Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Address_customer.address.street'
+
+23-10-2024T23:06:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_City_customer.address.city"), "t"): Text 't' is set on object 'Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_City_customer.address.city'
+
+23-10-2024T23:06:38 - [MESSAGE][PASSED] - Text 't' is set on object 'Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_City_customer.address.city'
+
+23-10-2024T23:06:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_City_customer.address.city")): Object: 'Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_City_customer.address.city' is clicked on
+
+23-10-2024T23:06:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_City_customer.address.city' is clicked on
+
+23-10-2024T23:06:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_State_customer.address.state"), "t"): Text 't' is set on object 'Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_State_customer.address.state'
+
+23-10-2024T23:06:39 - [MESSAGE][PASSED] - Text 't' is set on object 'Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_State_customer.address.state'
+
+23-10-2024T23:06:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_State_customer.address.state")): Object: 'Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_State_customer.address.state' is clicked on
+
+23-10-2024T23:06:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_State_customer.address.state' is clicked on
+
+23-10-2024T23:06:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Zip Code_customer.address.zipCode"), "222"): Text '222' is set on object 'Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Zip Code_customer.address.zipCode'
+
+23-10-2024T23:06:40 - [MESSAGE][PASSED] - Text '222' is set on object 'Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Zip Code_customer.address.zipCode'
+
+23-10-2024T23:06:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Phone_customer.phoneNumber"), "22332"): Text '22332' is set on object 'Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Phone_customer.phoneNumber'
+
+23-10-2024T23:06:41 - [MESSAGE][PASSED] - Text '22332' is set on object 'Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Phone_customer.phoneNumber'
+
+23-10-2024T23:06:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_SSN_customer.ssn"), ""): Text '' is set on object 'Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_SSN_customer.ssn'
+
+23-10-2024T23:06:42 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_SSN_customer.ssn'
+
+23-10-2024T23:06:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_SSN_customer.ssn")): Object: 'Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_SSN_customer.ssn' is clicked on
+
+23-10-2024T23:06:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_SSN_customer.ssn' is clicked on
+
+23-10-2024T23:06:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Username_customer.username"), "test"): Text 'test' is set on object 'Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Username_customer.username'
+
+23-10-2024T23:06:44 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Username_customer.username'
+
+23-10-2024T23:06:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Password_customer.password"), "P9ET2sDE0SE="): Text ****** has been set on object 'Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Password_customer.password'
+
+23-10-2024T23:06:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Password_customer.password'
+
+23-10-2024T23:06:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Confirm_repeatedPassword"), "P9ET2sDE0SE="): Text ****** has been set on object 'Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Confirm_repeatedPassword'
+
+23-10-2024T23:06:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Confirm_repeatedPassword'
+
+23-10-2024T23:06:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Confirm_button")): Object: 'Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Confirm_button' is clicked on
+
+23-10-2024T23:06:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Confirm_button' is clicked on
+
+23-10-2024T23:06:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Username_username"), "test"): Text 'test' is set on object 'Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Username_username'
+
+23-10-2024T23:06:48 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Username_username'
+
+23-10-2024T23:06:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Password_password"), "P9ET2sDE0SE="): Text ****** has been set on object 'Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Password_password'
+
+23-10-2024T23:06:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Password_password'
+
+23-10-2024T23:06:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Password_button")): Object: 'Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Password_button' is clicked on
+
+23-10-2024T23:06:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Password_button' is clicked on
+
+23-10-2024T23:06:51 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("Object Repository/Page_ParaBank  Error/p_The username and password could not be verified")): Unable to verify object 'Object Repository/Page_ParaBank  Error/p_The username and password could not be verified' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_ParaBank  Error/p_The username and password could not be verified' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:415)
+	at ParaBank.run(ParaBank:75)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1729704715294.run(TempTestSuite1729704715294.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Page_ParaBank  Error/p_The username and password could not be verified' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 21 more
+)
+
+23-10-2024T23:07:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='rightPanel']/p'. Please recheck the objects properties to make sure the desired element is located. 
+
+23-10-2024T23:07:23 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_ParaBank  Error/p_The username and password could not be verified'. Try using Self-healing.
+
+23-10-2024T23:07:23 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_ParaBank  Error/p_The username and password could not be verified' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Error!'])[1]/following::p[1]'.
+
+23-10-2024T23:07:23 - [MESSAGE][FAILED] - Object 'Object Repository/Page_ParaBank  Error/p_The username and password could not be verified' is NOT visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Page_ParaBank  Error/p_The username and password could not be verified' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:415)
+	at ParaBank.run(ParaBank:75)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1729704715294.run(TempTestSuite1729704715294.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+23-10-2024T23:07:23 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_ParaBank  Error/p_The username and password could not be verified' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_ParaBank  Error/p_The username and password could not be verified' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:415)
+	at ParaBank.run(ParaBank:75)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1729704715294.run(TempTestSuite1729704715294.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Page_ParaBank  Error/p_The username and password could not be verified' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 21 more
+)]]></system-out>
+         <system-err><![CDATA[23-10-2024T23:06:25 - [TEST_CASE][FAILED] - Test Cases/ParaBank: Test Cases/ParaBank FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_ParaBank  Error/p_The username and password could not be verified' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:415)
+	at ParaBank.run(ParaBank:75)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1729704715294.run(TempTestSuite1729704715294.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Page_ParaBank  Error/p_The username and password could not be verified' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 21 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[23-10-2024T23:04:00 - [TEST_SUITE][FAILED] - TCSuite1: Test Cases/ParaBank FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_ParaBank  Error/p_The username and password could not be verified' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:415)
+	at ParaBank.run(ParaBank:75)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1729704715294.run(TempTestSuite1729704715294.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Page_ParaBank  Error/p_The username and password could not be verified' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[23-10-2024T23:04:00 - [TEST_SUITE][FAILED] - TCSuite1: Test Cases/ParaBank FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_ParaBank  Error/p_The username and password could not be verified' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:415)
+	at ParaBank.run(ParaBank:75)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1729704715294.run(TempTestSuite1729704715294.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Page_ParaBank  Error/p_The username and password could not be verified' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

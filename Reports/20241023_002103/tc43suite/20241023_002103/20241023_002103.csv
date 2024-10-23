@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+tc43suite,Chrome 130.0.0.0,,,23-10-2024 00:21:49,23-10-2024 00:22:14,25.375s,PASSED
+,,,,,,,
+Test Cases/tc46,Chrome 130.0.0.0,,,23-10-2024 00:21:49,23-10-2024 00:22:14,24.917s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,23-10-2024 00:21:54,23-10-2024 00:22:01,7.967s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action"")",Chrome 130.0.0.0,,,23-10-2024 00:22:01,23-10-2024 00:22:03,1.794s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/img""))",Chrome 130.0.0.0,,,23-10-2024 00:22:03,23-10-2024 00:22:05,1.626s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_FI-SW-01""))",Chrome 130.0.0.0,,,23-10-2024 00:22:05,23-10-2024 00:22:06,0.952s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Add to Cart""))",Chrome 130.0.0.0,,,23-10-2024 00:22:06,23-10-2024 00:22:08,1.661s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Return to Main Menu""))",Chrome 130.0.0.0,,,23-10-2024 00:22:08,23-10-2024 00:22:10,1.977s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/img_1""))",Chrome 130.0.0.0,,,23-10-2024 00:22:10,23-10-2024 00:22:11,1.107s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_K9-DL-01""))",Chrome 130.0.0.0,,,23-10-2024 00:22:11,23-10-2024 00:22:12,1.435s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_EST-10""))",Chrome 130.0.0.0,,,23-10-2024 00:22:12,23-10-2024 00:22:13,1.408s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_JPetStore Demo/font_Spotted Adult Female  Dalmation""), 0)",Chrome 130.0.0.0,,,23-10-2024 00:22:13,23-10-2024 00:22:14,0.456s,PASSED

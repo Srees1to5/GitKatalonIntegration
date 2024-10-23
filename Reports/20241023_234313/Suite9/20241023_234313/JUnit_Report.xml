@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Suite9" time="29.085" tests="1" failures="0" errors="0">
+   <testsuite name="Suite9" tests="1" failures="0" errors="0" time="29.085" skipped="0" timestamp="23-10-2024T23:43:29" hostname="Anoop_G - 192.168.1.39" id="Test Suites/Suite9">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Anoop_G\\git\\GitKatalonIntegration\\GitKatalonIntegration\\Reports\\20241023_234313\\Suite9\\20241023_234313"/>
+         <property name="logFiles" value="C:\\Users\\Anoop_G\\git\\GitKatalonIntegration\\GitKatalonIntegration\\Reports\\20241023_234313\\Suite9\\20241023_234313\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Anoop_G - 192.168.1.39"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 130.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.39"/>
+         <property name="sessionId" value="7d84d08d2a90e01148eb888aa446aeb2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/KW9TC" time="25.84" classname="Test Cases/KW9TC" status="PASSED">
+         <system-out><![CDATA[23-10-2024T23:43:32 - [TEST_CASE][PASSED] - Test Cases/KW9TC: Test Cases/KW9TC
+
+23-10-2024T23:43:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-10-2024T23:43:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-10-2024T23:43:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-10-2024T23:43:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-10-2024T23:43:42 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+23-10-2024T23:43:50 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+23-10-2024T23:43:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/p_Forgot your password")): Object: 'Object Repository/Page_OrangeHRM/p_Forgot your password' is clicked on
+
+23-10-2024T23:43:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/p_Forgot your password' is clicked on
+
+23-10-2024T23:43:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_Username_username"), "test"): Text 'test' is set on object 'Object Repository/Page_OrangeHRM/input_Username_username'
+
+23-10-2024T23:43:54 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_OrangeHRM/input_Username_username'
+
+23-10-2024T23:43:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/button_Reset Password")): Object: 'Object Repository/Page_OrangeHRM/button_Reset Password' is clicked on
+
+23-10-2024T23:43:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button_Reset Password' is clicked on
+
+23-10-2024T23:43:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_OrangeHRM/h6_Reset Password link sent successfully"), 0): Object 'Object Repository/Page_OrangeHRM/h6_Reset Password link sent successfully' is present
+
+23-10-2024T23:43:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+23-10-2024T23:43:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/h6_Reset Password link sent successfully' is present
+
+23-10-2024T23:43:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_OrangeHRM/p_If the email does not arrive, please cont_a09402"), 0): Object 'Object Repository/Page_OrangeHRM/p_If the email does not arrive, please cont_a09402' is present
+
+23-10-2024T23:43:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+23-10-2024T23:43:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/p_If the email does not arrive, please cont_a09402' is present
+
+23-10-2024T23:43:58 - [TEST_STEP][PASSED] - com.test.pack1.KW9.verifyele(): com.test.pack1.KW9.verifyele is PASSED
+
+23-10-2024T23:43:58 - [MESSAGE][PASSED] - com.test.pack1.KW9.verifyele is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[23-10-2024T23:43:29 - [TEST_SUITE][PASSED] - Suite9: Test Cases/KW9TC]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="tc49suite" time="30.764" tests="1" failures="0" errors="0">
+   <testsuite name="tc49suite" tests="1" failures="0" errors="0" time="30.764" skipped="0" timestamp="23-10-2024T23:21:20" hostname="Anoop_G - 192.168.1.39" id="Test Suites/tc49suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Anoop_G\\git\\GitKatalonIntegration\\GitKatalonIntegration\\Reports\\20241023_232100\\tc49suite\\20241023_232100"/>
+         <property name="logFiles" value="C:\\Users\\Anoop_G\\git\\GitKatalonIntegration\\GitKatalonIntegration\\Reports\\20241023_232100\\tc49suite\\20241023_232100\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Anoop_G - 192.168.1.39"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 130.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.39"/>
+         <property name="sessionId" value="bc3b785f2925c4fb4fbf5f95f4e19579"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC49" time="28.294" classname="Test Cases/TC49" status="PASSED">
+         <system-out><![CDATA[23-10-2024T23:21:23 - [TEST_CASE][PASSED] - Test Cases/TC49: Test Cases/TC49
+
+23-10-2024T23:21:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-10-2024T23:21:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-10-2024T23:21:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-10-2024T23:21:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-10-2024T23:21:32 - [TEST_STEP][PASSED] - navigateToUrl("https://webdriveruniversity.com/index.html"): Navigate to 'https://webdriveruniversity.com/index.html' successfully
+
+23-10-2024T23:21:36 - [MESSAGE][PASSED] - Navigate to 'https://webdriveruniversity.com/index.html' successfully
+
+23-10-2024T23:21:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WebDriverUniversity.com/a_API Testing in detail using Postman - Tes_e954f1")): Object: 'Object Repository/Page_WebDriverUniversity.com/a_API Testing in detail using Postman - Tes_e954f1' is clicked on
+
+23-10-2024T23:21:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WebDriverUniversity.com/a_API Testing in detail using Postman - Tes_e954f1' is clicked on
+
+23-10-2024T23:21:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_API Testing in detail using Postman - _9221e6/h1_API Testing in detail using Postman - Te_3ef861"), 0): Object 'Object Repository/Page_API Testing in detail using Postman - _9221e6/h1_API Testing in detail using Postman - Te_3ef861' is present
+
+23-10-2024T23:21:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+23-10-2024T23:21:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_API Testing in detail using Postman - _9221e6/h1_API Testing in detail using Postman - Te_3ef861' is present
+
+23-10-2024T23:21:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_API Testing in detail using Postman - _9221e6/a_Postman")): Object: 'Object Repository/Page_API Testing in detail using Postman - _9221e6/a_Postman' is clicked on
+
+23-10-2024T23:21:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_API Testing in detail using Postman - _9221e6/a_Postman' is clicked on
+
+23-10-2024T23:21:46 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/Page_Just a moment/h1_www.udemy.com")): Object: 'Object Repository/Page_Just a moment/h1_www.udemy.com' is right clicked on
+
+23-10-2024T23:21:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Just a moment/h1_www.udemy.com' is right clicked on
+
+23-10-2024T23:21:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Just a moment/h1_www.udemy.com_1"), 0): Object 'Object Repository/Page_Just a moment/h1_www.udemy.com_1' is present
+
+23-10-2024T23:21:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+23-10-2024T23:21:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Just a moment/h1_www.udemy.com_1' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[23-10-2024T23:21:20 - [TEST_SUITE][PASSED] - tc49suite: Test Cases/TC49]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

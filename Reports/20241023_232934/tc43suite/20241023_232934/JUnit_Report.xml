@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="tc43suite" time="38.048" tests="2" failures="0" errors="0">
+   <testsuite name="tc43suite" tests="2" failures="0" errors="0" time="38.048" skipped="0" timestamp="23-10-2024T23:29:50" hostname="Anoop_G - 192.168.1.39" id="Test Suites/tc43suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Anoop_G\\git\\GitKatalonIntegration\\GitKatalonIntegration\\Reports\\20241023_232934\\tc43suite\\20241023_232934"/>
+         <property name="logFiles" value="C:\\Users\\Anoop_G\\git\\GitKatalonIntegration\\GitKatalonIntegration\\Reports\\20241023_232934\\tc43suite\\20241023_232934\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Anoop_G - 192.168.1.39"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 130.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.39"/>
+         <property name="sessionId" value="c9e49d5668aff2439163ecce7068eb65"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/tc46" time="22.308" classname="Test Cases/tc46" status="PASSED">
+         <system-out><![CDATA[23-10-2024T23:29:53 - [TEST_CASE][PASSED] - Test Cases/tc46: Test Cases/tc46
+
+23-10-2024T23:29:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-10-2024T23:29:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-10-2024T23:29:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-10-2024T23:30:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-10-2024T23:30:04 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/actions/Catalog.action"): Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+23-10-2024T23:30:06 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+23-10-2024T23:30:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore Demo/img")): Object: 'Object Repository/Page_JPetStore Demo/img' is clicked on
+
+23-10-2024T23:30:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/img' is clicked on
+
+23-10-2024T23:30:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore Demo/a_FI-SW-01")): Object: 'Object Repository/Page_JPetStore Demo/a_FI-SW-01' is clicked on
+
+23-10-2024T23:30:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/a_FI-SW-01' is clicked on
+
+23-10-2024T23:30:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore Demo/a_Add to Cart")): Object: 'Object Repository/Page_JPetStore Demo/a_Add to Cart' is clicked on
+
+23-10-2024T23:30:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/a_Add to Cart' is clicked on
+
+23-10-2024T23:30:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore Demo/a_Return to Main Menu")): Object: 'Object Repository/Page_JPetStore Demo/a_Return to Main Menu' is clicked on
+
+23-10-2024T23:30:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/a_Return to Main Menu' is clicked on
+
+23-10-2024T23:30:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore Demo/img_1")): Object: 'Object Repository/Page_JPetStore Demo/img_1' is clicked on
+
+23-10-2024T23:30:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/img_1' is clicked on
+
+23-10-2024T23:30:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore Demo/a_K9-DL-01")): Object: 'Object Repository/Page_JPetStore Demo/a_K9-DL-01' is clicked on
+
+23-10-2024T23:30:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/a_K9-DL-01' is clicked on
+
+23-10-2024T23:30:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore Demo/a_EST-10")): Object: 'Object Repository/Page_JPetStore Demo/a_EST-10' is clicked on
+
+23-10-2024T23:30:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/a_EST-10' is clicked on
+
+23-10-2024T23:30:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_JPetStore Demo/font_Spotted Adult Female  Dalmation"), 0): Object 'Object Repository/Page_JPetStore Demo/font_Spotted Adult Female  Dalmation' is present
+
+23-10-2024T23:30:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+23-10-2024T23:30:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_JPetStore Demo/font_Spotted Adult Female  Dalmation' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/tc43" time="12.905" classname="Test Cases/tc43" status="PASSED">
+         <system-out><![CDATA[23-10-2024T23:30:15 - [TEST_CASE][PASSED] - Test Cases/tc43: Test Cases/tc43
+
+23-10-2024T23:30:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-10-2024T23:30:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+23-10-2024T23:30:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-10-2024T23:30:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-10-2024T23:30:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-10-2024T23:30:25 - [TEST_STEP][PASSED] - navigateToUrl("https://testpages.eviltester.com/styled/alerts/alert-test.html"): Navigate to 'https://testpages.eviltester.com/styled/alerts/alert-test.html' successfully
+
+23-10-2024T23:30:27 - [MESSAGE][PASSED] - Navigate to 'https://testpages.eviltester.com/styled/alerts/alert-test.html' successfully
+
+23-10-2024T23:30:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Test Page For JavaScript Alerts/input_Alert Box Examples_alertexamples")): Object: 'Object Repository/Page_Test Page For JavaScript Alerts/input_Alert Box Examples_alertexamples' is clicked on
+
+23-10-2024T23:30:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Test Page For JavaScript Alerts/input_Alert Box Examples_alertexamples' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[23-10-2024T23:29:50 - [TEST_SUITE][PASSED] - tc43suite: Test Cases/tc43]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

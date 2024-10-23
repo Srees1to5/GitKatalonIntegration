@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Suite_OrangeDemoBlaze,Chrome 130.0.0.0,,,23-10-2024 23:32:35,23-10-2024 23:33:24,49.105s,PASSED
+,,,,,,,
+Test Cases/DemoBlazeTagsAdded,Chrome 130.0.0.0,,BlazeTag,23-10-2024 23:32:38,23-10-2024 23:33:06,28.532s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,23-10-2024 23:32:39,23-10-2024 23:32:48,9.038s,PASSED
+"navigateToUrl(""https://www.demoblaze.com/"")",Chrome 130.0.0.0,,,23-10-2024 23:32:48,23-10-2024 23:32:53,4.733s,PASSED
+"click(findTestObject(""Object Repository/Page_STORE/a_Monitors""))",Chrome 130.0.0.0,,,23-10-2024 23:32:53,23-10-2024 23:32:56,3.546s,PASSED
+"click(findTestObject(""Object Repository/Page_STORE/a_ASUS Full HD""))",Chrome 130.0.0.0,,,23-10-2024 23:32:56,23-10-2024 23:33:00,3.070s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_STORE/h2_ASUS Full HD""), 0)",Chrome 130.0.0.0,,,23-10-2024 23:33:00,23-10-2024 23:33:02,2.499s,PASSED
+"click(findTestObject(""Object Repository/Page_STORE/a_Add to cart""))",Chrome 130.0.0.0,,,23-10-2024 23:33:02,23-10-2024 23:33:03,0.685s,PASSED
+"cart = findTestObject(""Object Repository/Page_STORE/a_Add to cart"")",Chrome 130.0.0.0,,,23-10-2024 23:33:03,23-10-2024 23:33:03,0.019s,PASSED
+"verifyElementPresent(cart, 3)",Chrome 130.0.0.0,,,23-10-2024 23:33:03,23-10-2024 23:33:04,1.024s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,23-10-2024 23:33:04,23-10-2024 23:33:06,2.434s,PASSED
+,,,,,,,
+Test Cases/dempapplotz,Chrome 130.0.0.0,,tagapplot,23-10-2024 23:33:06,23-10-2024 23:33:24,17.722s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,23-10-2024 23:33:08,23-10-2024 23:33:15,6.247s,PASSED
+"navigateToUrl(""https://demo.applitools.com/"")",Chrome 130.0.0.0,,,23-10-2024 23:33:15,23-10-2024 23:33:16,1.719s,PASSED
+"setText(findTestObject(""Object Repository/Page_ACME Demo App by Applitools/input_Username_username""), ""test"")",Chrome 130.0.0.0,,,23-10-2024 23:33:16,23-10-2024 23:33:18,1.406s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_ACME Demo App by Applitools/input_Password_password""), ""P9ET2sDE0SE="")",Chrome 130.0.0.0,,,23-10-2024 23:33:18,23-10-2024 23:33:19,1.249s,PASSED
+"click(findTestObject(""Object Repository/Page_ACME Demo App by Applitools/input_Remember Me_form-check-input""))",Chrome 130.0.0.0,,,23-10-2024 23:33:19,23-10-2024 23:33:20,0.553s,PASSED
+"click(findTestObject(""Object Repository/Page_ACME Demo App by Applitools/a_Sign in""))",Chrome 130.0.0.0,,,23-10-2024 23:33:20,23-10-2024 23:33:21,1.864s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ACME demo app/h6_Your nearest branch closes in 30m 5s""), 0)",Chrome 130.0.0.0,,,23-10-2024 23:33:21,23-10-2024 23:33:22,0.624s,PASSED
+"click(findTestObject(""Object Repository/Page_ACME demo app/a_Restaurant  Cafe""))",Chrome 130.0.0.0,,,23-10-2024 23:33:22,23-10-2024 23:33:23,1.272s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ACME demo app/span_Starbucks coffee""), 0)",Chrome 130.0.0.0,,,23-10-2024 23:33:23,23-10-2024 23:33:24,0.661s,PASSED

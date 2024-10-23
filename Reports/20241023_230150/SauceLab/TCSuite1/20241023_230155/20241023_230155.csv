@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TCSuite1,Chrome 130.0.0.0,,,23-10-2024 23:04:00,23-10-2024 23:07:23,3m - 23.167s,FAILED
+,,,,,,,
+Test Cases/DemoBlazeTagsAdded,Chrome 130.0.0.0,,BlazeTag,23-10-2024 23:04:01,23-10-2024 23:05:13,1m - 12.211s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,23-10-2024 23:04:02,23-10-2024 23:04:08,6.631s,PASSED
+"navigateToUrl(""https://www.demoblaze.com/"")",Chrome 130.0.0.0,,,23-10-2024 23:04:08,23-10-2024 23:04:10,1.308s,PASSED
+"click(findTestObject(""Object Repository/Page_STORE/a_Monitors""))",Chrome 130.0.0.0,,,23-10-2024 23:04:10,23-10-2024 23:04:28,18.468s,PASSED
+"click(findTestObject(""Object Repository/Page_STORE/a_ASUS Full HD""))",Chrome 130.0.0.0,,,23-10-2024 23:04:28,23-10-2024 23:04:32,3.540s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_STORE/h2_ASUS Full HD""), 0)",Chrome 130.0.0.0,,,23-10-2024 23:04:32,23-10-2024 23:04:34,2.220s,PASSED
+"click(findTestObject(""Object Repository/Page_STORE/a_Add to cart""))",Chrome 130.0.0.0,,,23-10-2024 23:04:34,23-10-2024 23:04:35,0.727s,PASSED
+"cart = findTestObject(""Object Repository/Page_STORE/a_Add to cart"")",Chrome 130.0.0.0,,,23-10-2024 23:04:35,23-10-2024 23:04:35,0.020s,PASSED
+"verifyElementPresent(cart, 3)",Chrome 130.0.0.0,,,23-10-2024 23:04:35,23-10-2024 23:05:05,30.696s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,23-10-2024 23:05:05,23-10-2024 23:05:13,7.377s,PASSED
+,,,,,,,
+Test Cases/ParaBank,Chrome 130.0.0.0,,parabanktag,23-10-2024 23:06:25,23-10-2024 23:07:23,57.858s,FAILED
+"openBrowser("""")",Chrome 130.0.0.0,,,23-10-2024 23:06:25,23-10-2024 23:06:30,4.276s,PASSED
+"navigateToUrl(""https://parabank.parasoft.com/parabank/index.htm;jsessionid=433A0C0C0BB91807C12AA4A71899882A"")",Chrome 130.0.0.0,,,23-10-2024 23:06:30,23-10-2024 23:06:33,3.257s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank  Welcome  Online Banking/a_Register""))",Chrome 130.0.0.0,,,23-10-2024 23:06:33,23-10-2024 23:06:34,1.191s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_First Name_customer.firstName""), fname)",Chrome 130.0.0.0,,,23-10-2024 23:06:34,23-10-2024 23:06:35,1.078s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Last Name_customer.lastName""), lname)",Chrome 130.0.0.0,,,23-10-2024 23:06:35,23-10-2024 23:06:36,0.844s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Address_customer.address.street""), ""t"")",Chrome 130.0.0.0,,,23-10-2024 23:06:36,23-10-2024 23:06:37,0.705s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_City_customer.address.city""), ""t"")",Chrome 130.0.0.0,,,23-10-2024 23:06:37,23-10-2024 23:06:38,0.789s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_City_customer.address.city""))",Chrome 130.0.0.0,,,23-10-2024 23:06:38,23-10-2024 23:06:38,0.409s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_State_customer.address.state""), ""t"")",Chrome 130.0.0.0,,,23-10-2024 23:06:38,23-10-2024 23:06:39,0.762s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_State_customer.address.state""))",Chrome 130.0.0.0,,,23-10-2024 23:06:39,23-10-2024 23:06:39,0.359s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Zip Code_customer.address.zipCode""), ""222"")",Chrome 130.0.0.0,,,23-10-2024 23:06:39,23-10-2024 23:06:40,0.768s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Phone_customer.phoneNumber""), ""22332"")",Chrome 130.0.0.0,,,23-10-2024 23:06:40,23-10-2024 23:06:41,1.189s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_SSN_customer.ssn""), """")",Chrome 130.0.0.0,,,23-10-2024 23:06:41,23-10-2024 23:06:42,0.914s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_SSN_customer.ssn""))",Chrome 130.0.0.0,,,23-10-2024 23:06:42,23-10-2024 23:06:42,0.371s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Username_customer.username""), ""test"")",Chrome 130.0.0.0,,,23-10-2024 23:06:42,23-10-2024 23:06:44,1.671s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Password_customer.password""), ""P9ET2sDE0SE="")",Chrome 130.0.0.0,,,23-10-2024 23:06:44,23-10-2024 23:06:45,0.464s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Confirm_repeatedPassword""), ""P9ET2sDE0SE="")",Chrome 130.0.0.0,,,23-10-2024 23:06:45,23-10-2024 23:06:45,0.509s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Confirm_button""))",Chrome 130.0.0.0,,,23-10-2024 23:06:45,23-10-2024 23:06:47,1.495s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Username_username""), ""test"")",Chrome 130.0.0.0,,,23-10-2024 23:06:47,23-10-2024 23:06:48,1.388s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Password_password""), ""P9ET2sDE0SE="")",Chrome 130.0.0.0,,,23-10-2024 23:06:48,23-10-2024 23:06:49,0.698s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Password_button""))",Chrome 130.0.0.0,,,23-10-2024 23:06:49,23-10-2024 23:06:51,2.888s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_ParaBank  Error/p_The username and password could not be verified""))",Chrome 130.0.0.0,,,23-10-2024 23:06:51,23-10-2024 23:07:23,31.592s,FAILED

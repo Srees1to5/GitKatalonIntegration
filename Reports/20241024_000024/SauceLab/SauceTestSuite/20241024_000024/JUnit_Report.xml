@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SauceTestSuite" time="59.611" tests="2" failures="0" errors="0">
+   <testsuite name="SauceTestSuite" tests="2" failures="0" errors="0" time="59.611" skipped="0" timestamp="24-10-2024T00:00:43" hostname="Anoop_G - 192.168.1.39" id="Test Suites/SauceLab/SauceTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Anoop_G\\git\\GitKatalonIntegration\\GitKatalonIntegration\\Reports\\20241024_000024\\SauceLab\\SauceTestSuite\\20241024_000024"/>
+         <property name="logFiles" value="C:\\Users\\Anoop_G\\git\\GitKatalonIntegration\\GitKatalonIntegration\\Reports\\20241024_000024\\SauceLab\\SauceTestSuite\\20241024_000024\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Anoop_G - 192.168.1.39"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 130.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.39"/>
+         <property name="sessionId" value="58edd3f6568bc80e248c8c89c6cfe32f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/SauceLab/TC2_SauceLab_Variable - DD" time="21.982" classname="Test Cases/SauceLab/TC2_SauceLab_Variable - DD" status="PASSED">
+         <system-out><![CDATA[24-10-2024T00:00:47 - [TEST_CASE][PASSED] - Test Cases/SauceLab/TC2_SauceLab_Variable - DD: Test Cases/SauceLab/TC2_SauceLab_Variable - DD
+
+24-10-2024T00:00:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+24-10-2024T00:00:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-10-2024T00:00:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-10-2024T00:00:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-10-2024T00:00:59 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+24-10-2024T00:01:00 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+24-10-2024T00:01:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), username): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+24-10-2024T00:01:04 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+24-10-2024T00:01:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), password): Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+24-10-2024T00:01:06 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+24-10-2024T00:01:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+24-10-2024T00:01:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+24-10-2024T00:01:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Swag Labs/div_Sauce Labs Backpack"), "Sauce Labs Backpack"): Actual text and expected text of test object 'Object Repository/Page_Swag Labs/div_Sauce Labs Backpack' are matched.
+
+24-10-2024T00:01:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Swag Labs/div_Sauce Labs Backpack' are matched.
+
+24-10-2024T00:01:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_Add to cart")): Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+24-10-2024T00:01:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+24-10-2024T00:01:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/a_1")): Object: 'Object Repository/Page_Swag Labs/a_1' is clicked on
+
+24-10-2024T00:01:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/a_1' is clicked on
+
+24-10-2024T00:01:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Swag Labs/div_Sauce Labs Backpack"), 0): Object 'Object Repository/Page_Swag Labs/div_Sauce Labs Backpack' is present
+
+24-10-2024T00:01:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-10-2024T00:01:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/div_Sauce Labs Backpack' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SauceLab/TC2_SauceLab_Variable - DD" time="33.525" classname="Test Cases/SauceLab/TC2_SauceLab_Variable - DD" status="PASSED">
+         <system-out><![CDATA[24-10-2024T00:01:09 - [TEST_CASE][PASSED] - Test Cases/SauceLab/TC2_SauceLab_Variable - DD: Test Cases/SauceLab/TC2_SauceLab_Variable - DD
+
+24-10-2024T00:01:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+24-10-2024T00:01:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+24-10-2024T00:01:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-10-2024T00:01:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-10-2024T00:01:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-10-2024T00:01:25 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+24-10-2024T00:01:28 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+24-10-2024T00:01:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), username): Text 'performance_glitch_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+24-10-2024T00:01:31 - [MESSAGE][PASSED] - Text 'performance_glitch_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+24-10-2024T00:01:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), password): Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+24-10-2024T00:01:32 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+24-10-2024T00:01:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+24-10-2024T00:01:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+24-10-2024T00:01:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Swag Labs/div_Sauce Labs Backpack"), "Sauce Labs Backpack"): Actual text and expected text of test object 'Object Repository/Page_Swag Labs/div_Sauce Labs Backpack' are matched.
+
+24-10-2024T00:01:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Swag Labs/div_Sauce Labs Backpack' are matched.
+
+24-10-2024T00:01:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_Add to cart")): Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+24-10-2024T00:01:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+24-10-2024T00:01:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/a_1")): Object: 'Object Repository/Page_Swag Labs/a_1' is clicked on
+
+24-10-2024T00:01:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/a_1' is clicked on
+
+24-10-2024T00:01:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Swag Labs/div_Sauce Labs Backpack"), 0): Object 'Object Repository/Page_Swag Labs/div_Sauce Labs Backpack' is present
+
+24-10-2024T00:01:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-10-2024T00:01:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/div_Sauce Labs Backpack' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[24-10-2024T00:00:43 - [TEST_SUITE][PASSED] - SauceTestSuite: Test Cases/SauceLab/TC2_SauceLab_Variable - DD]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

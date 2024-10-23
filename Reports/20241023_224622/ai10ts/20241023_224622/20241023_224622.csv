@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ai10ts,Chrome 130.0.0.0,,,23-10-2024 22:46:38,23-10-2024 22:48:26,1m - 47.891s,PASSED
+,,,,,,,
+Test Cases/AI10tc,Chrome 130.0.0.0,,,23-10-2024 22:46:39,23-10-2024 22:48:26,1m - 46.708s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,23-10-2024 22:46:40,23-10-2024 22:46:46,5.882s,PASSED
+"navigateToUrl(""https://www.tutorialspoint.com/index.htm"")",Chrome 130.0.0.0,,,23-10-2024 22:46:46,23-10-2024 22:46:59,12.651s,PASSED
+"click(findTestObject(""Object Repository/Page_Quality Tutorials, Video Courses, and _b82182/a_CSS""))",Chrome 130.0.0.0,,,23-10-2024 22:46:59,23-10-2024 22:47:55,56.745s,PASSED
+"click(findTestObject(""Object Repository/Page_CSS Tutorial/a_Discussion""))",Chrome 130.0.0.0,,,23-10-2024 22:47:55,23-10-2024 22:48:26,30.519s,PASSED

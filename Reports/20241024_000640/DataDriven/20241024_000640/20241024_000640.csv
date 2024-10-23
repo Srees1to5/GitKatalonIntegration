@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DataDriven,Chrome 130.0.0.0,,,24-10-2024 00:06:54,24-10-2024 00:10:11,3m - 16.919s,FAILED
+,,,,,,,
+Test Cases/DataDrivenExcel,Chrome 130.0.0.0,,,24-10-2024 00:06:57,24-10-2024 00:07:25,27.886s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,24-10-2024 00:07:01,24-10-2024 00:07:08,7.413s,PASSED
+expText = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 130.0.0.0,,,24-10-2024 00:07:08,24-10-2024 00:07:08,0.007s,PASSED
+navigateToUrl(url),Chrome 130.0.0.0,,,24-10-2024 00:07:08,24-10-2024 00:07:13,4.550s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 130.0.0.0,,,24-10-2024 00:07:13,24-10-2024 00:07:15,1.944s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), username)",Chrome 130.0.0.0,,,24-10-2024 00:07:15,24-10-2024 00:07:17,1.817s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), password)",Chrome 130.0.0.0,,,24-10-2024 00:07:17,24-10-2024 00:07:18,1.167s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 130.0.0.0,,,24-10-2024 00:07:18,24-10-2024 00:07:19,1.202s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34""))",Chrome 130.0.0.0,,,24-10-2024 00:07:19,24-10-2024 00:07:20,0.829s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/th_""))",Chrome 130.0.0.0,,,24-10-2024 00:07:20,24-10-2024 00:07:20,0.523s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/td_9""))",Chrome 130.0.0.0,,,24-10-2024 00:07:20,24-10-2024 00:07:21,0.602s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""), ""test"")",Chrome 130.0.0.0,,,24-10-2024 00:07:21,24-10-2024 00:07:22,1.199s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 130.0.0.0,,,24-10-2024 00:07:22,24-10-2024 00:07:24,1.929s,PASSED
+"verifyTextMakeApp = getText(findTestObject(""Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation""))",Chrome 130.0.0.0,,,24-10-2024 00:07:24,24-10-2024 00:07:25,1.030s,PASSED
+"if (verifyTextMakeApp == ""Appointment Confirmation"")",Chrome 130.0.0.0,,,24-10-2024 00:07:25,24-10-2024 00:07:25,0.158s,PASSED
+"expText = ""Appointment Confirmation""",Chrome 130.0.0.0,,,24-10-2024 00:07:25,24-10-2024 00:07:25,0.003s,PASSED
+"verifyEqual(expText, verifyTextMakeApp)",Chrome 130.0.0.0,,,24-10-2024 00:07:25,24-10-2024 00:07:25,0.199s,PASSED
+,,,,,,,
+Test Cases/DataDrivenExcel,Chrome 130.0.0.0,,,24-10-2024 00:08:28,24-10-2024 00:10:11,1m - 43.272s,FAILED
+"openBrowser("""")",Chrome 130.0.0.0,,,24-10-2024 00:08:28,24-10-2024 00:08:47,18.825s,PASSED
+expText = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 130.0.0.0,,,24-10-2024 00:08:47,24-10-2024 00:08:47,0.002s,PASSED
+navigateToUrl(url),Chrome 130.0.0.0,,,24-10-2024 00:08:47,24-10-2024 00:08:54,7.304s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 130.0.0.0,,,24-10-2024 00:08:54,24-10-2024 00:09:05,11.144s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), username)",Chrome 130.0.0.0,,,24-10-2024 00:09:05,24-10-2024 00:09:10,5.078s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), password)",Chrome 130.0.0.0,,,24-10-2024 00:09:10,24-10-2024 00:09:15,4.932s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 130.0.0.0,,,24-10-2024 00:09:15,24-10-2024 00:09:19,3.341s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34""))",Chrome 130.0.0.0,,,24-10-2024 00:09:19,24-10-2024 00:09:20,1.458s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/th_""))",Chrome 130.0.0.0,,,24-10-2024 00:09:20,24-10-2024 00:10:11,50.992s,FAILED

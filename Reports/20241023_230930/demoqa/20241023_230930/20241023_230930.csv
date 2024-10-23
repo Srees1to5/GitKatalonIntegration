@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+demoqa,Chrome 130.0.0.0,,,23-10-2024 23:09:57,23-10-2024 23:12:11,2m - 13.735s,FAILED
+,,,,,,,
+Test Cases/DemoQA,Chrome 130.0.0.0,,testdemoqatag,23-10-2024 23:11:00,23-10-2024 23:12:11,1m - 10.808s,FAILED
+"openBrowser("""")",Chrome 130.0.0.0,,,23-10-2024 23:11:00,23-10-2024 23:11:08,7.678s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,23-10-2024 23:11:08,23-10-2024 23:11:12,3.977s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,23-10-2024 23:11:12,23-10-2024 23:11:16,3.822s,PASSED
+"navigateToUrl(""https://sampleapp.tricentis.com/101/"")",Chrome 130.0.0.0,,,23-10-2024 23:11:16,23-10-2024 23:11:27,10.561s,PASSED
+"click(findTestObject(""Object Repository/Page_ACME demo app/Page_Tricentis Vehicle Insurance/div_AutomobileTruckMotorcycleCamperRequest _a5db7c""))",Chrome 130.0.0.0,,,23-10-2024 23:11:27,23-10-2024 23:11:27,0.451s,PASSED
+"doubleClick(findTestObject(""Object Repository/Page_ACME demo app/Page_Enter Insurant Data/body_Vehicle Insurance ApplicationThis is a_dbb725""))",Chrome 130.0.0.0,,,23-10-2024 23:11:27,23-10-2024 23:11:28,0.574s,PASSED
+"setText(findTestObject(""Object Repository/Page_ACME demo app/Page_Enter Insurant Data/input_First Name_First Name""), ""sssssssssssssssssss"")",Chrome 130.0.0.0,,,23-10-2024 23:11:28,23-10-2024 23:12:11,43.550s,FAILED

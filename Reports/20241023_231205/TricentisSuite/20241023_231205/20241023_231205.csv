@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TricentisSuite,Chrome 130.0.0.0,,,23-10-2024 23:12:31,23-10-2024 23:14:49,2m - 18.383s,FAILED
+,,,,,,,
+Test Cases/Tricentis,Chrome 130.0.0.0,,,23-10-2024 23:13:47,23-10-2024 23:14:49,1m - 1.565s,FAILED
+"openBrowser("""")",Chrome 130.0.0.0,,,23-10-2024 23:13:47,23-10-2024 23:13:53,5.640s,PASSED
+"navigateToUrl(""https://sampleapp.tricentis.com/101/"")",Chrome 130.0.0.0,,,23-10-2024 23:13:53,23-10-2024 23:14:06,13.262s,PASSED
+"click(findTestObject(""Object Repository/Page_Tricentis Vehicle Insurance/a_Motorcycle""))",Chrome 130.0.0.0,,,23-10-2024 23:14:06,23-10-2024 23:14:13,6.616s,PASSED
+"click(findTestObject(""Object Repository/Page_Enter Vehicle Data/a_Enter Insurant Data7""))",Chrome 130.0.0.0,,,23-10-2024 23:14:13,23-10-2024 23:14:14,0.639s,PASSED
+"setText(findTestObject(""Object Repository/Page_Enter Insurant Data/input_First Name_First Name""), ""as"")",Chrome 130.0.0.0,,,23-10-2024 23:14:14,23-10-2024 23:14:15,0.922s,PASSED
+"setText(findTestObject(""Object Repository/Page_Enter Insurant Data/input_Last Name_Last Name""), ""as"")",Chrome 130.0.0.0,,,23-10-2024 23:14:15,23-10-2024 23:14:16,0.968s,PASSED
+"click(findTestObject(""Object Repository/Page_Enter Insurant Data/i_Date of Birth_fa fa-calendar-plus-o""))",Chrome 130.0.0.0,,,23-10-2024 23:14:16,23-10-2024 23:14:16,0.571s,PASSED
+"click(findTestObject(""Object Repository/Page_Enter Insurant Data/span_October""))",Chrome 130.0.0.0,,,23-10-2024 23:14:16,23-10-2024 23:14:17,0.770s,PASSED
+"click(findTestObject(""Object Repository/Page_Enter Insurant Data/span_Female_ideal-radio""))",Chrome 130.0.0.0,,,23-10-2024 23:14:17,23-10-2024 23:14:49,31.997s,FAILED

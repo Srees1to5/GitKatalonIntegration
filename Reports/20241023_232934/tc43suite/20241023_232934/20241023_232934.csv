@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+tc43suite,Chrome 130.0.0.0,,,23-10-2024 23:29:50,23-10-2024 23:30:28,38.048s,PASSED
+,,,,,,,
+Test Cases/tc46,Chrome 130.0.0.0,,,23-10-2024 23:29:53,23-10-2024 23:30:15,22.308s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,23-10-2024 23:29:55,23-10-2024 23:30:04,9.278s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action"")",Chrome 130.0.0.0,,,23-10-2024 23:30:04,23-10-2024 23:30:06,1.696s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/img""))",Chrome 130.0.0.0,,,23-10-2024 23:30:06,23-10-2024 23:30:07,1.868s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_FI-SW-01""))",Chrome 130.0.0.0,,,23-10-2024 23:30:07,23-10-2024 23:30:09,1.149s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Add to Cart""))",Chrome 130.0.0.0,,,23-10-2024 23:30:09,23-10-2024 23:30:10,1.245s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Return to Main Menu""))",Chrome 130.0.0.0,,,23-10-2024 23:30:10,23-10-2024 23:30:11,1.216s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/img_1""))",Chrome 130.0.0.0,,,23-10-2024 23:30:11,23-10-2024 23:30:12,1.021s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_K9-DL-01""))",Chrome 130.0.0.0,,,23-10-2024 23:30:12,23-10-2024 23:30:13,1.176s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_EST-10""))",Chrome 130.0.0.0,,,23-10-2024 23:30:13,23-10-2024 23:30:15,1.396s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_JPetStore Demo/font_Spotted Adult Female  Dalmation""), 0)",Chrome 130.0.0.0,,,23-10-2024 23:30:15,23-10-2024 23:30:15,0.604s,PASSED
+,,,,,,,
+Test Cases/tc43,Chrome 130.0.0.0,,,23-10-2024 23:30:15,23-10-2024 23:30:28,12.905s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,23-10-2024 23:30:16,23-10-2024 23:30:25,9.577s,PASSED
+"navigateToUrl(""https://testpages.eviltester.com/styled/alerts/alert-test.html"")",Chrome 130.0.0.0,,,23-10-2024 23:30:25,23-10-2024 23:30:27,1.882s,PASSED
+"click(findTestObject(""Object Repository/Page_Test Page For JavaScript Alerts/input_Alert Box Examples_alertexamples""))",Chrome 130.0.0.0,,,23-10-2024 23:30:27,23-10-2024 23:30:28,1.174s,PASSED

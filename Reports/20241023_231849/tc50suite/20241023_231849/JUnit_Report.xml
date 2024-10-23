@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="tc50suite" time="22.884" tests="1" failures="0" errors="0">
+   <testsuite name="tc50suite" tests="1" failures="0" errors="0" time="22.884" skipped="0" timestamp="23-10-2024T23:19:08" hostname="Anoop_G - 192.168.1.39" id="Test Suites/tc50suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Anoop_G\\git\\GitKatalonIntegration\\GitKatalonIntegration\\Reports\\20241023_231849\\tc50suite\\20241023_231849"/>
+         <property name="logFiles" value="C:\\Users\\Anoop_G\\git\\GitKatalonIntegration\\GitKatalonIntegration\\Reports\\20241023_231849\\tc50suite\\20241023_231849\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Anoop_G - 192.168.1.39"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 130.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.39"/>
+         <property name="sessionId" value="853b0ce93f1408197b504f8d4b1591dd"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC50" time="20.5" classname="Test Cases/TC50" status="PASSED">
+         <system-out><![CDATA[23-10-2024T23:19:10 - [TEST_CASE][PASSED] - Test Cases/TC50: Test Cases/TC50
+
+23-10-2024T23:19:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-10-2024T23:19:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-10-2024T23:19:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-10-2024T23:19:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-10-2024T23:19:20 - [TEST_STEP][PASSED] - navigateToUrl("https://practice.expandtesting.com/xpath-css-tester"): Navigate to 'https://practice.expandtesting.com/xpath-css-tester' successfully
+
+23-10-2024T23:19:27 - [MESSAGE][PASSED] - Navigate to 'https://practice.expandtesting.com/xpath-css-tester' successfully
+
+23-10-2024T23:19:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Xpath and Css Selector Tester Tool for_de1387/html_window.top.postMessage(msg_typeresize-_a7bd98")): Object: 'Object Repository/Page_Xpath and Css Selector Tester Tool for_de1387/html_window.top.postMessage(msg_typeresize-_a7bd98' is clicked on
+
+23-10-2024T23:19:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Xpath and Css Selector Tester Tool for_de1387/html_window.top.postMessage(msg_typeresize-_a7bd98' is clicked on
+
+23-10-2024T23:19:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Xpath and Css Selector Tester Tool for_de1387/h1_Xpath and Css Selector Tester Free Tools_8790fe"), 0): Object 'Object Repository/Page_Xpath and Css Selector Tester Tool for_de1387/h1_Xpath and Css Selector Tester Free Tools_8790fe' is present
+
+23-10-2024T23:19:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+23-10-2024T23:19:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Xpath and Css Selector Tester Tool for_de1387/h1_Xpath and Css Selector Tester Free Tools_8790fe' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[23-10-2024T23:19:08 - [TEST_SUITE][PASSED] - tc50suite: Test Cases/TC50]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
