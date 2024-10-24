@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AISuite,Chrome 130.0.0.0,,,24-10-2024 20:14:31,24-10-2024 20:15:11,39.563s,PASSED
+,,,,,,,
+Test Cases/AI3,Chrome 130.0.0.0,,3,24-10-2024 20:14:32,24-10-2024 20:14:48,15.829s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,24-10-2024 20:14:33,24-10-2024 20:14:40,6.923s,PASSED
+"navigateToUrl(""https://webflow.com/login"")",Chrome 130.0.0.0,,,24-10-2024 20:14:40,24-10-2024 20:14:48,8.093s,PASSED
+,,,,,,,
+Test Cases/AI_TC2,Chrome 130.0.0.0,,aitag,24-10-2024 20:14:48,24-10-2024 20:14:58,9.863s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,24-10-2024 20:14:48,24-10-2024 20:14:54,5.604s,PASSED
+maximizeWindow(),Chrome 130.0.0.0,,,24-10-2024 20:14:54,24-10-2024 20:14:54,0.396s,PASSED
+"navigateToUrl(""https://google.com"")",Chrome 130.0.0.0,,,24-10-2024 20:14:54,24-10-2024 20:14:58,3.500s,PASSED
+,,,,,,,
+Test Cases/AI4,Chrome 130.0.0.0,,3,24-10-2024 20:14:58,24-10-2024 20:15:11,12.943s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,24-10-2024 20:14:58,24-10-2024 20:15:06,8.295s,PASSED
+maximizeWindow(),Chrome 130.0.0.0,,,24-10-2024 20:15:06,24-10-2024 20:15:07,0.194s,PASSED
+"navigateToUrl(""https://rahulshettyacademy.com/client"")",Chrome 130.0.0.0,,,24-10-2024 20:15:07,24-10-2024 20:15:11,4.039s,PASSED
